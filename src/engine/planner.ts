@@ -1,4 +1,4 @@
-import type { Business, DayPlan, EngineCtx, ImpactMetrics, LatLng, Plan, PlanInput, PlannedStop, Reason, ReasonCode, Site, TraceEvent, Weights } from './types'
+import type { Business, DayPlan, EngineCtx, ImpactMetrics, Plan, PlanInput, PlannedStop, Reason, ReasonCode, Site, TraceEvent, Weights } from './types'
 import { TravelOracle } from './matrix'
 import { estimateCrowd } from './crowd'
 import { scoreSite, weightsFor, nearbyPartners } from './score'
