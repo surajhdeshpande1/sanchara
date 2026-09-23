@@ -5,3 +5,7 @@ export * from './time'
 export * from './geo'
 export * from './matrix'
 export * from './crowd'
+
+export * from './score'
+export * from './planner'
+export * from './impact'
