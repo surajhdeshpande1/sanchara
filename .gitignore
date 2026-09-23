@@ -1,0 +1,24 @@
+# dependencies and builds
+node_modules/
+dist/
+dev-dist/
+.firebase/
+*.tsbuildinfo
+
+# secrets — NEVER commit these
+.env
+.env.local
+.env.*.local
+
+# logs and OS junk
+*.log
+firebase-debug.log
+firestore-debug.log
+.DS_Store
+Thumbs.db
+
+# Vercel CLI link
+.vercel
+
+# phone screenshots from npm run shots
+shots/

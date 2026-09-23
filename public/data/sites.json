@@ -1,0 +1,1277 @@
+{
+  "version": "2026-09-20",
+  "district": "Bagalkot",
+  "notes": "coordVerified=false means approximate (±300 m) — verify before relying on geofences. Fees/hours with verified=false must be shown as 'confirm locally'; verified=true means an official page states it (sourceIds), not a field check.",
+  "sites": [
+    {
+      "id": "badami-caves",
+      "name": {
+        "en": "Badami Cave Temples",
+        "kn": "ಬಾದಾಮಿ ಗುಹಾ ದೇವಾಲಯಗಳು",
+        "hi": "बादामी गुफा मंदिर"
+      },
+      "short": {
+        "en": "Four 6th–7th-century cave shrines carved into red sandstone above Agastya lake.",
+        "kn": "ಅಗಸ್ತ್ಯ ತೀರ್ಥದ ಮೇಲಿನ ಕೆಂಪು ಮರಳುಗಲ್ಲಿನಲ್ಲಿ ಕೊರೆದ ನಾಲ್ಕು ಗುಹಾ ದೇವಾಲಯಗಳು (6–7ನೇ ಶತಮಾನ).",
+        "hi": "अगस्त्य झील के ऊपर लाल बलुआ पत्थर में तराशे गए चार गुफा मंदिर (6वीं–7वीं शताब्दी)।"
+      },
+      "kind": "heritage",
+      "tags": [
+        "architecture",
+        "rock-cut",
+        "temple",
+        "jain",
+        "history",
+        "photography",
+        "family"
+      ],
+      "cluster": "badami",
+      "taluk": "Badami",
+      "district": "Bagalkot",
+      "scope": "district",
+      "location": {
+        "lat": 15.91833,
+        "lng": 75.68417
+      },
+      "coordVerified": true,
+      "geofenceM": 400,
+      "tier": "anchor",
+      "popularity": 70,
+      "crowdProfile": "monument",
+      "experience": 95,
+      "visitMin": 90,
+      "walking": "moderate",
+      "hours": {
+        "open": "06:00",
+        "close": "18:00",
+        "verified": false,
+        "sourceIds": [
+          "kt-badami"
+        ],
+        "note": {
+          "en": "Karnataka Tourism lists 6 AM–6 PM daily; Incredible India lists 9 AM–5:30 PM. Confirm locally."
+        }
+      },
+      "plannable": true,
+      "fee": {
+        "indianINR": 40,
+        "foreignINR": 600,
+        "verified": true,
+        "sourceIds": [
+          "kt-badami"
+        ],
+        "note": "Karnataka Tourism rate — confirm at the counter."
+      },
+      "recognition": {
+        "tier": "hero",
+        "signature": "Four rock-cut cave shrines cut into a red-brown sandstone cliff above a lake; pillared verandahs with square carved pillars and bracket figures; large relief panels (multi-armed dancing Shiva, Vishnu seated on a serpent, Varaha, Trivikrama); stone steps climbing between the caves.",
+        "confusableWith": [
+          "aihole-ravanaphadi"
+        ]
+      },
+      "images": []
+    },
+    {
+      "id": "bhutanatha",
+      "name": {
+        "en": "Bhutanatha Temples",
+        "kn": "ಭೂತನಾಥ ದೇವಾಲಯಗಳು",
+        "hi": "भूतनाथ मंदिर"
+      },
+      "short": {
+        "en": "Lakeside Shiva temples (7th–12th c.) — Badami's classic sunset view.",
+        "kn": "ಅಗಸ್ತ್ಯ ತೀರ್ಥದ ದಡದ ಶಿವ ದೇವಾಲಯಗಳು — ಬಾದಾಮಿಯ ಸೂರ್ಯಾಸ್ತದ ಅಪ್ರತಿಮ ನೋಟ.",
+        "hi": "झील किनारे के शिव मंदिर — बादामी का सबसे प्रसिद्ध सूर्यास्त दृश्य।"
+      },
+      "kind": "heritage",
+      "tags": [
+        "architecture",
+        "temple",
+        "lake",
+        "sunset",
+        "photography"
+      ],
+      "cluster": "badami",
+      "taluk": "Badami",
+      "district": "Bagalkot",
+      "scope": "district",
+      "location": {
+        "lat": 15.9181,
+        "lng": 75.6906
+      },
+      "coordVerified": false,
+      "geofenceM": 400,
+      "tier": "major",
+      "popularity": 55,
+      "crowdProfile": "monument",
+      "experience": 88,
+      "visitMin": 40,
+      "walking": "easy",
+      "hours": {
+        "open": "06:00",
+        "close": "18:00",
+        "verified": false,
+        "note": {
+          "en": "ASI monuments are generally open sunrise to sunset — confirm locally."
+        }
+      },
+      "plannable": true,
+      "fee": {
+        "indianINR": 0,
+        "verified": false
+      },
+      "recognition": {
+        "tier": "hero",
+        "signature": "Sandstone temple with a stepped pyramidal tower standing at the water's edge on the east side of a lake, often with its reflection; red cliffs and boulders behind; an open pillared hall facing the water.",
+        "confusableWith": [
+          "malegitti-shivalaya",
+          "mahakuta"
+        ]
+      },
+      "images": []
+    },
+    {
+      "id": "agastya-lake",
+      "name": {
+        "en": "Agastya Lake",
+        "kn": "ಅಗಸ್ತ್ಯ ತೀರ್ಥ",
+        "hi": "अगस्त्य झील"
+      },
+      "short": {
+        "en": "The lake at the heart of Badami, ringed by cliffs, caves and temples.",
+        "kn": "ಬಂಡೆಗಳು, ಗುಹೆಗಳು ಮತ್ತು ದೇವಾಲಯಗಳಿಂದ ಆವೃತವಾದ ಬಾದಾಮಿಯ ಹೃದಯಭಾಗದ ಸರೋವರ.",
+        "hi": "चट्टानों, गुफाओं और मंदिरों से घिरी बादामी के बीचोंबीच की झील।"
+      },
+      "kind": "nature",
+      "tags": [
+        "lake",
+        "sunset",
+        "photography",
+        "family",
+        "nature"
+      ],
+      "cluster": "badami",
+      "taluk": "Badami",
+      "district": "Bagalkot",
+      "scope": "district",
+      "location": {
+        "lat": 15.919806,
+        "lng": 75.686528
+      },
+      "coordVerified": true,
+      "geofenceM": 400,
+      "tier": "major",
+      "popularity": 45,
+      "crowdProfile": "nature",
+      "experience": 70,
+      "visitMin": 30,
+      "walking": "easy",
+      "hours": {
+        "open": "06:00",
+        "close": "19:30",
+        "verified": false
+      },
+      "plannable": true,
+      "fee": {
+        "indianINR": 0,
+        "verified": false
+      },
+      "recognition": {
+        "tier": "supported",
+        "signature": "Green-water reservoir enclosed by red sandstone cliffs, with stone steps (ghats) on the banks and temples at its edges.",
+        "confusableWith": [
+          "bhutanatha"
+        ]
+      },
+      "images": [],
+      "coordSourceId": "wiki-agastya-lake"
+    },
+    {
+      "id": "malegitti-shivalaya",
+      "name": {
+        "en": "Malegitti Shivalaya",
+        "kn": "ಮಾಲೆಗಿತ್ತಿ ಶಿವಾಲಯ",
+        "hi": "मालेगित्ती शिवालय"
+      },
+      "short": {
+        "en": "A small, perfect Dravida temple balanced on a giant boulder.",
+        "kn": "ದೊಡ್ಡ ಬಂಡೆಯ ಮೇಲೆ ನಿಂತಿರುವ ಪುಟ್ಟ, ಸುಂದರ ದ್ರಾವಿಡ ಶೈಲಿಯ ದೇವಾಲಯ.",
+        "hi": "एक विशाल चट्टान पर टिका छोटा, सुंदर द्रविड़ शैली का मंदिर।"
+      },
+      "kind": "heritage",
+      "tags": [
+        "architecture",
+        "temple",
+        "photography",
+        "hidden-gem",
+        "history"
+      ],
+      "cluster": "badami",
+      "taluk": "Badami",
+      "district": "Bagalkot",
+      "scope": "district",
+      "location": {
+        "lat": 15.9214,
+        "lng": 75.6858
+      },
+      "coordVerified": false,
+      "geofenceM": 400,
+      "tier": "hidden",
+      "popularity": 18,
+      "crowdProfile": "monument",
+      "experience": 82,
+      "visitMin": 40,
+      "walking": "moderate",
+      "hours": {
+        "open": "06:00",
+        "close": "18:00",
+        "verified": false,
+        "note": {
+          "en": "ASI monuments are generally open sunrise to sunset — confirm locally."
+        }
+      },
+      "plannable": true,
+      "fee": {
+        "indianINR": 0,
+        "verified": false
+      },
+      "recognition": {
+        "tier": "hero",
+        "signature": "Compact Dravida-style temple perched on top of a huge sandstone boulder; square sanctum with a single-storey pyramidal tower capped by a dome-like finial; carved wall niches.",
+        "confusableWith": [
+          "bhutanatha",
+          "aihole-meguti"
+        ]
+      },
+      "images": []
+    },
+    {
+      "id": "badami-north-fort",
+      "name": {
+        "en": "Badami North Fort & Upper Shivalaya",
+        "kn": "ಬಾದಾಮಿ ಉತ್ತರ ಕೋಟೆ ಮತ್ತು ಮೇಲಿನ ಶಿವಾಲಯ",
+        "hi": "बादामी उत्तरी किला और ऊपरी शिवालय"
+      },
+      "short": {
+        "en": "Climb to the north fort and Upper Shivalaya for sweeping views.",
+        "kn": "ಉತ್ತರ ಕೋಟೆ ಮತ್ತು ಮೇಲಿನ ಶಿವಾಲಯಕ್ಕೆ ಹತ್ತಿ — ಊರಿನ ವಿಶಾಲ ನೋಟ.",
+        "hi": "उत्तरी किले और ऊपरी शिवालय तक चढ़ाई — पूरे शहर का विहंगम दृश्य।"
+      },
+      "kind": "heritage",
+      "tags": [
+        "fort",
+        "architecture",
+        "trek",
+        "viewpoint",
+        "photography",
+        "history"
+      ],
+      "cluster": "badami",
+      "taluk": "Badami",
+      "district": "Bagalkot",
+      "scope": "district",
+      "location": {
+        "lat": 15.923694,
+        "lng": 75.681417
+      },
+      "coordVerified": true,
+      "geofenceM": 400,
+      "tier": "major",
+      "popularity": 30,
+      "crowdProfile": "monument",
+      "experience": 80,
+      "visitMin": 90,
+      "walking": "strenuous",
+      "hours": {
+        "open": "06:00",
+        "close": "18:00",
+        "verified": false,
+        "note": {
+          "en": "ASI monuments are generally open sunrise to sunset — confirm locally."
+        }
+      },
+      "plannable": true,
+      "fee": {
+        "indianINR": 0,
+        "verified": false
+      },
+      "recognition": {
+        "tier": "supported",
+        "signature": "Hilltop fortifications, gateways and granaries on a sandstone hill with an early temple (Upper Shivalaya) and wide views over a town and lake."
+      },
+      "images": [],
+      "coordSourceId": "wiki-badami-shivalaya"
+    },
+    {
+      "id": "badami-museum",
+      "name": {
+        "en": "Archaeological Museum, Badami",
+        "kn": "ಪುರಾತತ್ವ ವಸ್ತುಸಂಗ್ರಹಾಲಯ, ಬಾದಾಮಿ",
+        "hi": "पुरातत्व संग्रहालय, बादामी"
+      },
+      "short": {
+        "en": "ASI sculpture gallery of carvings found around Badami.",
+        "kn": "ಬಾದಾಮಿ ಸುತ್ತಮುತ್ತ ದೊರೆತ ಶಿಲ್ಪಗಳ ಭಾರತೀಯ ಪುರಾತತ್ವ ಸರ್ವೇಕ್ಷಣೆಯ ಸಂಗ್ರಹಾಲಯ.",
+        "hi": "बादामी के आसपास मिली मूर्तियों की भारतीय पुरातत्व सर्वेक्षण की दीर्घा।"
+      },
+      "kind": "museum",
+      "tags": [
+        "museum",
+        "history",
+        "family",
+        "easy"
+      ],
+      "cluster": "badami",
+      "taluk": "Badami",
+      "district": "Bagalkot",
+      "scope": "district",
+      "location": {
+        "lat": 15.9203,
+        "lng": 75.6874
+      },
+      "coordVerified": false,
+      "geofenceM": 400,
+      "tier": "major",
+      "popularity": 28,
+      "crowdProfile": "museum",
+      "experience": 68,
+      "visitMin": 45,
+      "walking": "easy",
+      "hours": {
+        "open": "09:00",
+        "close": "17:00",
+        "closedWeekdays": [
+          5
+        ],
+        "verified": true,
+        "sourceIds": [
+          "asi-badami-museum",
+          "ii-badami-museum"
+        ],
+        "note": {
+          "en": "Closed on Fridays (ASI)."
+        }
+      },
+      "plannable": true,
+      "fee": {
+        "indianINR": 5,
+        "verified": true,
+        "sourceIds": [
+          "asi-badami-museum"
+        ],
+        "note": "Free for children up to 15 years (ASI)."
+      },
+      "images": []
+    },
+    {
+      "id": "jambulinga",
+      "name": {
+        "en": "Jambulinga Temple",
+        "kn": "ಜಂಬುಲಿಂಗ ದೇವಾಲಯ",
+        "hi": "जंबुलिंग मंदिर"
+      },
+      "short": {
+        "en": "A three-shrine temple hidden in Badami's old lanes.",
+        "kn": "ಬಾದಾಮಿಯ ಹಳೆಯ ಓಣಿಗಳಲ್ಲಿ ಅಡಗಿರುವ ಮೂರು ಗರ್ಭಗುಡಿಗಳ ದೇವಾಲಯ.",
+        "hi": "बादामी की पुरानी गलियों में छिपा तीन गर्भगृहों वाला मंदिर।"
+      },
+      "kind": "heritage",
+      "tags": [
+        "architecture",
+        "temple",
+        "hidden-gem",
+        "history"
+      ],
+      "cluster": "badami",
+      "taluk": "Badami",
+      "district": "Bagalkot",
+      "scope": "district",
+      "location": {
+        "lat": 15.9197,
+        "lng": 75.6829
+      },
+      "coordVerified": false,
+      "geofenceM": 400,
+      "tier": "hidden",
+      "popularity": 10,
+      "crowdProfile": "monument",
+      "experience": 60,
+      "visitMin": 20,
+      "walking": "easy",
+      "hours": {
+        "open": "06:00",
+        "close": "18:00",
+        "verified": false,
+        "note": {
+          "en": "ASI monuments are generally open sunrise to sunset — confirm locally."
+        }
+      },
+      "plannable": true,
+      "fee": {
+        "indianINR": 0,
+        "verified": false
+      },
+      "recognition": {
+        "tier": "supported",
+        "signature": "Small triple-shrine sandstone temple standing among houses in narrow town lanes."
+      },
+      "images": []
+    },
+    {
+      "id": "banashankari",
+      "name": {
+        "en": "Banashankari Temple",
+        "kn": "ಬನಶಂಕರಿ ದೇವಾಲಯ",
+        "hi": "बनशंकरी मंदिर"
+      },
+      "short": {
+        "en": "Living temple of goddess Banashankari with a vast stepped tank.",
+        "kn": "ವಿಶಾಲ ಹರಿದ್ರಾ ತೀರ್ಥದೊಂದಿಗೆ ಬನಶಂಕರಿ ದೇವಿಯ ಜೀವಂತ ದೇವಾಲಯ.",
+        "hi": "विशाल सीढ़ीदार कुंड वाला देवी बनशंकरी का जीवंत मंदिर।"
+      },
+      "kind": "spiritual",
+      "tags": [
+        "pilgrimage",
+        "living-temple",
+        "temple",
+        "family",
+        "festival"
+      ],
+      "cluster": "banashankari",
+      "taluk": "Badami",
+      "district": "Bagalkot",
+      "scope": "district",
+      "location": {
+        "lat": 15.88722,
+        "lng": 75.705
+      },
+      "coordVerified": true,
+      "geofenceM": 400,
+      "tier": "major",
+      "popularity": 58,
+      "crowdProfile": "temple",
+      "experience": 72,
+      "visitMin": 50,
+      "walking": "easy",
+      "hours": {
+        "open": "06:00",
+        "close": "20:00",
+        "verified": false,
+        "note": {
+          "en": "Living temple — hours vary on festival days; confirm locally."
+        }
+      },
+      "plannable": true,
+      "fee": {
+        "indianINR": 0,
+        "verified": false
+      },
+      "recognition": {
+        "tier": "supported",
+        "signature": "Temple complex fronted by a very large square stepped tank with pillared corridors on its sides and tall lamp pillars at the entrance."
+      },
+      "images": []
+    },
+    {
+      "id": "mahakuta",
+      "name": {
+        "en": "Mahakuta Temples",
+        "kn": "ಮಹಾಕೂಟ ದೇವಾಲಯಗಳು",
+        "hi": "महाकूट मंदिर समूह"
+      },
+      "short": {
+        "en": "Spring-fed temple tank and Chalukyan shrines in a quiet valley.",
+        "kn": "ಪ್ರಶಾಂತ ಕಣಿವೆಯಲ್ಲಿ ಚಿಲುಮೆಯ ನೀರಿನ ಪುಷ್ಕರಿಣಿ ಮತ್ತು ಚಾಲುಕ್ಯ ದೇವಾಲಯಗಳು.",
+        "hi": "शांत घाटी में झरने से भरा कुंड और चालुक्य मंदिर।"
+      },
+      "kind": "heritage",
+      "tags": [
+        "architecture",
+        "temple",
+        "living-temple",
+        "pilgrimage",
+        "hidden-gem",
+        "nature"
+      ],
+      "cluster": "mahakuta",
+      "taluk": "Badami",
+      "district": "Bagalkot",
+      "scope": "district",
+      "location": {
+        "lat": 15.93278,
+        "lng": 75.72167
+      },
+      "coordVerified": true,
+      "geofenceM": 400,
+      "tier": "hidden",
+      "popularity": 22,
+      "crowdProfile": "temple",
+      "experience": 86,
+      "visitMin": 60,
+      "walking": "easy",
+      "hours": {
+        "open": "06:00",
+        "close": "20:00",
+        "verified": true,
+        "sourceIds": [
+          "ii-mahakuta"
+        ],
+        "note": {
+          "en": "Living temple — hours can change on festival days."
+        }
+      },
+      "plannable": true,
+      "fee": {
+        "indianINR": 0,
+        "verified": false
+      },
+      "recognition": {
+        "tier": "hero",
+        "signature": "Walled complex of early Chalukyan temples around a rectangular spring-fed tank with a small pavilion-shrine in the water; pyramidal (Dravida) and curvilinear (Nagara) towers side by side; bathers in the tank.",
+        "confusableWith": [
+          "bhutanatha",
+          "pattadakal"
+        ]
+      },
+      "images": []
+    },
+    {
+      "id": "sidlaphadi",
+      "name": {
+        "en": "Sidlaphadi Rock Arch",
+        "kn": "ಸಿಡ್ಲಫಡಿ",
+        "hi": "सिडलफडी"
+      },
+      "short": {
+        "en": "A natural rock arch and prehistoric shelter, a short trek from Badami.",
+        "kn": "ಬಾದಾಮಿಯಿಂದ ಸಣ್ಣ ಚಾರಣದ ದೂರದಲ್ಲಿರುವ ನೈಸರ್ಗಿಕ ಶಿಲಾ ಕಮಾನು ಮತ್ತು ಪ್ರಾಗೈತಿಹಾಸಿಕ ಆಶ್ರಯ.",
+        "hi": "बादामी से थोड़ी ट्रेकिंग दूरी पर प्राकृतिक चट्टानी मेहराब और प्रागैतिहासिक आश्रय।"
+      },
+      "kind": "nature",
+      "tags": [
+        "nature",
+        "trek",
+        "hidden-gem",
+        "history",
+        "photography"
+      ],
+      "cluster": "badami",
+      "taluk": "Badami",
+      "district": "Bagalkot",
+      "scope": "district",
+      "location": {
+        "lat": 15.94361,
+        "lng": 75.70139
+      },
+      "coordVerified": true,
+      "geofenceM": 400,
+      "tier": "hidden",
+      "popularity": 8,
+      "crowdProfile": "nature",
+      "experience": 72,
+      "visitMin": 100,
+      "walking": "strenuous",
+      "hours": {
+        "open": "07:00",
+        "close": "17:30",
+        "verified": false,
+        "note": {
+          "en": "Go with a local guide; no facilities on the trail."
+        }
+      },
+      "plannable": true,
+      "fee": {
+        "indianINR": 0,
+        "verified": false
+      },
+      "recognition": {
+        "tier": "supported",
+        "signature": "Natural sandstone rock arch or cavern with an opening in its roof, reached by a rocky trail through scrub hills."
+      },
+      "images": [],
+      "coordSourceId": "wiki-sidlaphadi"
+    },
+    {
+      "id": "pattadakal",
+      "name": {
+        "en": "Pattadakal Group of Monuments",
+        "kn": "ಪಟ್ಟದಕಲ್ಲು ಸ್ಮಾರಕಗಳ ಸಮೂಹ",
+        "hi": "पट्टदकल स्मारक समूह"
+      },
+      "short": {
+        "en": "UNESCO World Heritage complex where northern and southern temple styles meet.",
+        "kn": "ಉತ್ತರ ಮತ್ತು ದಕ್ಷಿಣ ಭಾರತದ ದೇವಾಲಯ ಶೈಲಿಗಳು ಸಂಗಮಿಸುವ ಯುನೆಸ್ಕೋ ವಿಶ್ವ ಪರಂಪರೆಯ ತಾಣ.",
+        "hi": "यूनेस्को विश्व धरोहर स्थल, जहाँ उत्तर और दक्षिण भारत की मंदिर शैलियाँ मिलती हैं।"
+      },
+      "kind": "heritage",
+      "tags": [
+        "unesco",
+        "architecture",
+        "temple",
+        "history",
+        "photography",
+        "inscription"
+      ],
+      "cluster": "pattadakal",
+      "taluk": "Badami",
+      "district": "Bagalkot",
+      "scope": "district",
+      "location": {
+        "lat": 15.95139,
+        "lng": 75.81472
+      },
+      "coordVerified": true,
+      "geofenceM": 600,
+      "tier": "anchor",
+      "popularity": 62,
+      "crowdProfile": "monument",
+      "experience": 97,
+      "visitMin": 120,
+      "walking": "easy",
+      "hours": {
+        "open": "06:00",
+        "close": "18:00",
+        "verified": false,
+        "note": {
+          "en": "ASI monuments are generally open sunrise to sunset — confirm locally."
+        }
+      },
+      "plannable": true,
+      "fee": {
+        "indianINR": 40,
+        "verified": false,
+        "foreignINR": 600,
+        "note": "ASI World Heritage ticket — confirm current rate"
+      },
+      "recognition": {
+        "tier": "hero",
+        "signature": "Riverside complex of about ten 7th–8th-century sandstone temples on lawns, mixing northern curvilinear (Nagara) towers and southern pyramidal (Dravida) towers; dense sculpture; a Nandi pavilion.",
+        "confusableWith": [
+          "aihole-durga",
+          "mahakuta"
+        ]
+      },
+      "images": []
+    },
+    {
+      "id": "pattadakal-virupaksha",
+      "name": {
+        "en": "Virupaksha Temple, Pattadakal",
+        "kn": "ವಿರೂಪಾಕ್ಷ ದೇವಾಲಯ, ಪಟ್ಟದಕಲ್ಲು",
+        "hi": "विरूपाक्ष मंदिर, पट्टदकल"
+      },
+      "short": {
+        "en": "Queen Lokamahadevi's masterpiece, c. 740 CE.",
+        "kn": "ರಾಣಿ ಲೋಕಮಹಾದೇವಿಯ ಅದ್ಭುತ ಕೊಡುಗೆ, ಸುಮಾರು ಕ್ರಿ.ಶ. 740.",
+        "hi": "रानी लोकमहादेवी की उत्कृष्ट कृति, लगभग 740 ई."
+      },
+      "kind": "heritage",
+      "tags": [
+        "unesco",
+        "architecture",
+        "temple",
+        "inscription",
+        "history"
+      ],
+      "cluster": "pattadakal",
+      "taluk": "Badami",
+      "district": "Bagalkot",
+      "scope": "district",
+      "location": {
+        "lat": 15.9509,
+        "lng": 75.8153
+      },
+      "coordVerified": false,
+      "geofenceM": 400,
+      "tier": "anchor",
+      "popularity": 62,
+      "crowdProfile": "monument",
+      "experience": 97,
+      "visitMin": 0,
+      "walking": "easy",
+      "hours": {
+        "open": "06:00",
+        "close": "18:00",
+        "verified": false,
+        "note": {
+          "en": "ASI monuments are generally open sunrise to sunset — confirm locally."
+        }
+      },
+      "plannable": false,
+      "parentId": "pattadakal",
+      "fee": {
+        "indianINR": 0,
+        "verified": false,
+        "note": "Included in the Pattadakal ticket"
+      },
+      "recognition": {
+        "tier": "hero",
+        "signature": "The largest temple of the Pattadakal complex: tall stepped Dravida tower, a walled courtyard with an entrance gateway, a separate Nandi pavilion in front, walls densely carved with narrative panels.",
+        "confusableWith": [
+          "pattadakal"
+        ]
+      },
+      "images": []
+    },
+    {
+      "id": "aihole-durga",
+      "name": {
+        "en": "Durga Temple, Aihole",
+        "kn": "ದುರ್ಗಾ ದೇವಾಲಯ, ಐಹೊಳೆ",
+        "hi": "दुर्गा मंदिर, ऐहोल"
+      },
+      "short": {
+        "en": "The horseshoe-shaped temple with a colonnade walkway — Aihole's icon.",
+        "kn": "ಕುದುರೆ ಲಾಳದ ಆಕಾರದ, ಸುತ್ತ ಕಂಬಸಾಲಿನ ಪ್ರದಕ್ಷಿಣಾ ಪಥವಿರುವ ಐಹೊಳೆಯ ಪ್ರತೀಕ.",
+        "hi": "घोड़े की नाल के आकार का, स्तंभों वाले परिक्रमा पथ से घिरा ऐहोल का प्रतीक मंदिर।"
+      },
+      "kind": "heritage",
+      "tags": [
+        "architecture",
+        "temple",
+        "history",
+        "photography",
+        "museum"
+      ],
+      "cluster": "aihole",
+      "taluk": "Hungund",
+      "district": "Bagalkot",
+      "scope": "district",
+      "location": {
+        "lat": 16.020667,
+        "lng": 75.88194
+      },
+      "coordVerified": true,
+      "geofenceM": 400,
+      "tier": "major",
+      "popularity": 45,
+      "crowdProfile": "monument",
+      "experience": 93,
+      "visitMin": 75,
+      "walking": "easy",
+      "hours": {
+        "open": "06:00",
+        "close": "18:00",
+        "verified": false,
+        "note": {
+          "en": "ASI monuments are generally open sunrise to sunset — confirm locally."
+        }
+      },
+      "plannable": true,
+      "fee": {
+        "indianINR": 25,
+        "verified": false,
+        "foreignINR": 300,
+        "note": "ASI ticket — confirm current rate"
+      },
+      "recognition": {
+        "tier": "hero",
+        "signature": "Apsidal (horseshoe-ended) temple on a tall moulded plinth, surrounded by a colonnaded walkway with carved pillars; stub of a curvilinear tower; steps up to the entrance; lawned complex.",
+        "confusableWith": [
+          "pattadakal",
+          "aihole-ladkhan"
+        ]
+      },
+      "images": []
+    },
+    {
+      "id": "aihole-ladkhan",
+      "name": {
+        "en": "Lad Khan Temple, Aihole",
+        "kn": "ಲಾಡ್ ಖಾನ್ ದೇವಾಲಯ, ಐಹೊಳೆ",
+        "hi": "लाड खान मंदिर, ऐहोल"
+      },
+      "short": {
+        "en": "One of Aihole's early temples, shaped like a pillared assembly hall.",
+        "kn": "ಕಂಬಗಳ ಸಭಾಮಂಟಪದಂತೆ ಕಾಣುವ ಐಹೊಳೆಯ ಆರಂಭಿಕ ದೇವಾಲಯಗಳಲ್ಲಿ ಒಂದು.",
+        "hi": "स्तंभों वाले सभा-मंडप जैसा दिखने वाला ऐहोल का प्रारंभिक मंदिर।"
+      },
+      "kind": "heritage",
+      "tags": [
+        "architecture",
+        "temple",
+        "history"
+      ],
+      "cluster": "aihole",
+      "taluk": "Hungund",
+      "district": "Bagalkot",
+      "scope": "district",
+      "location": {
+        "lat": 16.0201,
+        "lng": 75.8826
+      },
+      "coordVerified": false,
+      "geofenceM": 400,
+      "tier": "major",
+      "popularity": 45,
+      "crowdProfile": "monument",
+      "experience": 85,
+      "visitMin": 0,
+      "walking": "easy",
+      "hours": {
+        "open": "06:00",
+        "close": "18:00",
+        "verified": false,
+        "note": {
+          "en": "ASI monuments are generally open sunrise to sunset — confirm locally."
+        }
+      },
+      "plannable": false,
+      "parentId": "aihole-durga",
+      "fee": {
+        "indianINR": 0,
+        "verified": false,
+        "note": "Inside the Durga temple complex"
+      },
+      "recognition": {
+        "tier": "hero",
+        "signature": "Low square hall of massive pillars under a sloping two-tier stone-slab roof, with a small shrine on the roof and perforated stone window screens (jalis).",
+        "confusableWith": [
+          "aihole-durga"
+        ]
+      },
+      "images": []
+    },
+    {
+      "id": "aihole-meguti",
+      "name": {
+        "en": "Meguti Jain Temple, Aihole",
+        "kn": "ಮೇಗುತಿ ಜೈನ ದೇವಾಲಯ, ಐಹೊಳೆ",
+        "hi": "मेगुती जैन मंदिर, ऐहोल"
+      },
+      "short": {
+        "en": "Hilltop Jain temple bearing the famous Aihole inscription of 634 CE.",
+        "kn": "ಕ್ರಿ.ಶ. 634ರ ಪ್ರಸಿದ್ಧ ಐಹೊಳೆ ಶಾಸನವಿರುವ ಬೆಟ್ಟದ ಮೇಲಿನ ಜೈನ ದೇವಾಲಯ.",
+        "hi": "634 ई. के प्रसिद्ध ऐहोल शिलालेख वाला पहाड़ी पर स्थित जैन मंदिर।"
+      },
+      "kind": "heritage",
+      "tags": [
+        "jain",
+        "inscription",
+        "history",
+        "viewpoint",
+        "architecture"
+      ],
+      "cluster": "aihole",
+      "taluk": "Hungund",
+      "district": "Bagalkot",
+      "scope": "district",
+      "location": {
+        "lat": 16.01722,
+        "lng": 75.88389
+      },
+      "coordVerified": true,
+      "geofenceM": 400,
+      "tier": "hidden",
+      "popularity": 20,
+      "crowdProfile": "monument",
+      "experience": 85,
+      "visitMin": 45,
+      "walking": "moderate",
+      "hours": {
+        "open": "06:00",
+        "close": "18:00",
+        "verified": false,
+        "note": {
+          "en": "ASI monuments are generally open sunrise to sunset — confirm locally."
+        }
+      },
+      "plannable": true,
+      "fee": {
+        "indianINR": 0,
+        "verified": false
+      },
+      "recognition": {
+        "tier": "hero",
+        "signature": "Plain sandstone Jain temple on a hilltop with a long inscribed stone slab set into its outer wall; views over a village full of temples.",
+        "confusableWith": [
+          "malegitti-shivalaya"
+        ]
+      },
+      "images": [],
+      "coordSourceId": "wiki-meguti"
+    },
+    {
+      "id": "aihole-ravanaphadi",
+      "name": {
+        "en": "Ravana Phadi Cave, Aihole",
+        "kn": "ರಾವಣ ಫಡಿ ಗುಹೆ, ಐಹೊಳೆ",
+        "hi": "रावण फडी गुफा, ऐहोल"
+      },
+      "short": {
+        "en": "A rock-cut cave with some of Aihole's finest sculpture.",
+        "kn": "ಐಹೊಳೆಯ ಅತ್ಯುತ್ತಮ ಶಿಲ್ಪಗಳಿರುವ ಶಿಲೆಯಲ್ಲಿ ಕೊರೆದ ಗುಹೆ.",
+        "hi": "ऐहोल की बेहतरीन मूर्तियों वाली शैलकृत गुफा।"
+      },
+      "kind": "heritage",
+      "tags": [
+        "rock-cut",
+        "architecture",
+        "temple",
+        "hidden-gem"
+      ],
+      "cluster": "aihole",
+      "taluk": "Hungund",
+      "district": "Bagalkot",
+      "scope": "district",
+      "location": {
+        "lat": 16.0231,
+        "lng": 75.8871
+      },
+      "coordVerified": false,
+      "geofenceM": 400,
+      "tier": "hidden",
+      "popularity": 15,
+      "crowdProfile": "monument",
+      "experience": 78,
+      "visitMin": 30,
+      "walking": "easy",
+      "hours": {
+        "open": "06:00",
+        "close": "18:00",
+        "verified": false,
+        "note": {
+          "en": "ASI monuments are generally open sunrise to sunset — confirm locally."
+        }
+      },
+      "plannable": true,
+      "fee": {
+        "indianINR": 0,
+        "verified": false
+      },
+      "recognition": {
+        "tier": "supported",
+        "signature": "Rock-cut Shaiva cave cut into a low sandstone outcrop, with large carved panels (dancing Shiva, river goddesses) inside.",
+        "confusableWith": [
+          "badami-caves"
+        ]
+      },
+      "images": []
+    },
+    {
+      "id": "kudalasangama",
+      "name": {
+        "en": "Kudalasangama",
+        "kn": "ಕೂಡಲಸಂಗಮ",
+        "hi": "कूडलसंगम"
+      },
+      "short": {
+        "en": "River confluence and Aikya Mantapa of the 12th-century reformer Basavanna.",
+        "kn": "ನದಿಗಳ ಸಂಗಮ ಮತ್ತು ಹನ್ನೆರಡನೇ ಶತಮಾನದ ಸಮಾಜ ಸುಧಾರಕ ಬಸವಣ್ಣನವರ ಐಕ್ಯ ಮಂಟಪ.",
+        "hi": "नदियों का संगम और 12वीं सदी के समाज सुधारक बसवण्णा का ऐक्य मंडप।"
+      },
+      "kind": "spiritual",
+      "tags": [
+        "sharana",
+        "pilgrimage",
+        "river",
+        "living-temple",
+        "history",
+        "family"
+      ],
+      "cluster": "kudalasangama",
+      "taluk": "Hungund",
+      "district": "Bagalkot",
+      "scope": "district",
+      "location": {
+        "lat": 16.20361,
+        "lng": 76.06
+      },
+      "coordVerified": true,
+      "geofenceM": 400,
+      "tier": "major",
+      "popularity": 52,
+      "crowdProfile": "temple",
+      "experience": 84,
+      "visitMin": 75,
+      "walking": "easy",
+      "hours": {
+        "open": "06:00",
+        "close": "20:00",
+        "verified": false,
+        "note": {
+          "en": "Living temple — hours vary on festival days; confirm locally."
+        }
+      },
+      "plannable": true,
+      "fee": {
+        "indianINR": 0,
+        "verified": false
+      },
+      "recognition": {
+        "tier": "hero",
+        "signature": "Circular pavilion (Aikya Mantapa) standing in the water at a river confluence, reached by steps and a walkway, surrounded by large modern stepped platforms and a tall gateway tower."
+      },
+      "images": []
+    },
+    {
+      "id": "almatti",
+      "name": {
+        "en": "Almatti Dam & Gardens",
+        "kn": "ಆಲಮಟ್ಟಿ ಅಣೆಕಟ್ಟು ಮತ್ತು ಉದ್ಯಾನಗಳು",
+        "hi": "आलमट्टी बांध और उद्यान"
+      },
+      "short": {
+        "en": "Krishna river dam and gardens on the district's northern edge (Vijayapura side).",
+        "kn": "ಜಿಲ್ಲೆಯ ಉತ್ತರ ಅಂಚಿನಲ್ಲಿರುವ ಕೃಷ್ಣಾ ನದಿಯ ಅಣೆಕಟ್ಟು ಮತ್ತು ಉದ್ಯಾನಗಳು (ವಿಜಯಪುರ ಭಾಗ).",
+        "hi": "जिले की उत्तरी सीमा पर कृष्णा नदी का बांध और उद्यान (विजयपुरा की ओर)।"
+      },
+      "kind": "nature",
+      "tags": [
+        "dam",
+        "river",
+        "garden",
+        "family",
+        "nature",
+        "viewpoint"
+      ],
+      "cluster": "almatti",
+      "taluk": "Basavana Bagewadi",
+      "district": "Vijayapura",
+      "scope": "border",
+      "location": {
+        "lat": 16.331,
+        "lng": 75.888
+      },
+      "coordVerified": true,
+      "geofenceM": 400,
+      "tier": "major",
+      "popularity": 48,
+      "crowdProfile": "nature",
+      "experience": 70,
+      "visitMin": 90,
+      "walking": "easy",
+      "hours": {
+        "open": "06:00",
+        "close": "19:00",
+        "verified": true,
+        "sourceIds": [
+          "kt-lavkush"
+        ],
+        "note": {
+          "en": "Lav Kush garden hours; entry is free 6–9 AM and 6–7 PM."
+        }
+      },
+      "plannable": true,
+      "fee": {
+        "indianINR": 20,
+        "verified": false,
+        "sourceIds": [
+          "kt-lavkush"
+        ],
+        "note": "A nominal day-time garden fee applies; free early morning and evening."
+      },
+      "recognition": {
+        "tier": "supported",
+        "signature": "Long concrete dam with a row of radial crest gates across a wide river, with terraced landscaped gardens below."
+      },
+      "images": []
+    },
+    {
+      "id": "ilkal",
+      "name": {
+        "en": "Ilkal Handloom Town",
+        "kn": "ಇಳಕಲ್ ಕೈಮಗ್ಗ ಪಟ್ಟಣ",
+        "hi": "इलकल हथकरघा नगर"
+      },
+      "short": {
+        "en": "Home of the Ilkal saree — meet weavers at their looms.",
+        "kn": "ಇಳಕಲ್ ಸೀರೆಯ ತವರು — ಮಗ್ಗದಲ್ಲಿ ನೇಯುವ ನೇಕಾರರನ್ನು ಭೇಟಿಯಾಗಿ.",
+        "hi": "इलकल साड़ी का घर — करघे पर बुनकरों से मिलिए।"
+      },
+      "kind": "craft",
+      "tags": [
+        "handloom",
+        "craft",
+        "gi",
+        "market"
+      ],
+      "cluster": "ilkal",
+      "taluk": "Ilkal",
+      "district": "Bagalkot",
+      "scope": "district",
+      "location": {
+        "lat": 15.97,
+        "lng": 76.13
+      },
+      "coordVerified": true,
+      "geofenceM": 1500,
+      "tier": "major",
+      "popularity": 30,
+      "crowdProfile": "market",
+      "experience": 74,
+      "visitMin": 60,
+      "walking": "easy",
+      "hours": {
+        "open": "10:00",
+        "close": "19:00",
+        "verified": false
+      },
+      "plannable": true,
+      "fee": {
+        "indianINR": 0,
+        "verified": false
+      },
+      "images": []
+    },
+    {
+      "id": "guledgudd",
+      "name": {
+        "en": "Guledgudd Handloom Town",
+        "kn": "ಗುಳೇದಗುಡ್ಡ ಕೈಮಗ್ಗ ಪಟ್ಟಣ",
+        "hi": "गुलेदगुड्ड हथकरघा नगर"
+      },
+      "short": {
+        "en": "Handloom town famed for Guledgudd khana blouse fabric.",
+        "kn": "ಗುಳೇದಗುಡ್ಡ ಖಣ ಬಟ್ಟೆಗೆ ಹೆಸರಾದ ಕೈಮಗ್ಗ ಪಟ್ಟಣ.",
+        "hi": "गुलेदगुड्ड खण कपड़े के लिए प्रसिद्ध हथकरघा नगर।"
+      },
+      "kind": "craft",
+      "tags": [
+        "handloom",
+        "craft",
+        "gi",
+        "market",
+        "hidden-gem"
+      ],
+      "cluster": "guledgudd",
+      "taluk": "Guledgudda",
+      "district": "Bagalkot",
+      "scope": "district",
+      "location": {
+        "lat": 16.05,
+        "lng": 75.8
+      },
+      "coordVerified": true,
+      "geofenceM": 1500,
+      "tier": "hidden",
+      "popularity": 12,
+      "crowdProfile": "market",
+      "experience": 68,
+      "visitMin": 45,
+      "walking": "easy",
+      "hours": {
+        "open": "10:00",
+        "close": "19:00",
+        "verified": false
+      },
+      "plannable": true,
+      "fee": {
+        "indianINR": 0,
+        "verified": false
+      },
+      "images": []
+    },
+    {
+      "id": "shrama-bindu-sagar",
+      "name": {
+        "en": "Shrama Bindu Sagar Barrage",
+        "kn": "ಶ್ರಮಬಿಂದು ಸಾಗರ ಬ್ಯಾರೇಜ್",
+        "hi": "श्रमबिंदु सागर बैराज"
+      },
+      "short": {
+        "en": "The barrage on the Krishna that farmers of 21 villages built for themselves, near Jamkhandi.",
+        "kn": "ಜಮಖಂಡಿ ಬಳಿ 21 ಗ್ರಾಮಗಳ ರೈತರೇ ತಮಗಾಗಿ ಕಟ್ಟಿಕೊಂಡ ಕೃಷ್ಣಾ ನದಿಯ ಬ್ಯಾರೇಜ್.",
+        "hi": "जमखंडी के पास कृष्णा पर वह बैराज, जिसे 21 गाँवों के किसानों ने खुद बनाया।"
+      },
+      "kind": "nature",
+      "tags": [
+        "river",
+        "community",
+        "engineering",
+        "history",
+        "viewpoint",
+        "hidden-gem"
+      ],
+      "cluster": "jamkhandi",
+      "taluk": "Jamkhandi",
+      "district": "Bagalkot",
+      "scope": "district",
+      "location": {
+        "lat": 16.5675,
+        "lng": 75.3896
+      },
+      "coordVerified": true,
+      "coordSourceId": "wiki-shrama-bindu-sagar",
+      "geofenceM": 500,
+      "tier": "hidden",
+      "popularity": 10,
+      "crowdProfile": "nature",
+      "experience": 68,
+      "visitMin": 40,
+      "walking": "easy",
+      "plannable": true,
+      "hours": {
+        "open": "06:30",
+        "close": "18:30",
+        "verified": false,
+        "note": {
+          "en": "Open riverside site. Go in daylight, and stay off the barrage when the river is in flow."
+        }
+      },
+      "fee": {
+        "indianINR": 0,
+        "verified": false
+      },
+      "recognition": {
+        "tier": "supported",
+        "signature": "A long, low barrage of concrete piers and gates across a wide river, with a road deck on top, flat farmland on both banks and pump-set pipes running down to the water.",
+        "confusableWith": [
+          "almatti"
+        ]
+      },
+      "images": []
+    },
+    {
+      "id": "mudhol",
+      "name": {
+        "en": "Mudhol — Home of the Mudhol Hound",
+        "kn": "ಮುಧೋಳ — ಮುಧೋಳ ನಾಯಿಯ ನಾಡು",
+        "hi": "मुधोल — मुधोल हाउंड की धरती"
+      },
+      "short": {
+        "en": "The town that gave India’s Caravan Hound its name; the KVAFSU breed centre is 16 km away at Timmapur.",
+        "kn": "ಭಾರತದ ಕಾರವಾನ್ ಹೌಂಡ್‌ಗೆ ಹೆಸರು ಕೊಟ್ಟ ಊರು; KVAFSU ತಳಿ ಕೇಂದ್ರ 16 ಕಿ.ಮೀ. ದೂರದ ತಿಮ್ಮಾಪುರದಲ್ಲಿದೆ.",
+        "hi": "वह नगर जिसने भारत के कारवाँ हाउंड को नाम दिया; KVAFSU का नस्ल केंद्र 16 किमी दूर तिम्मापुर में है।"
+      },
+      "kind": "heritage",
+      "tags": [
+        "living-heritage",
+        "animals",
+        "history",
+        "hidden-gem"
+      ],
+      "cluster": "mudhol",
+      "taluk": "Mudhol",
+      "district": "Bagalkot",
+      "scope": "district",
+      "location": {
+        "lat": 16.35,
+        "lng": 75.2833
+      },
+      "coordVerified": true,
+      "coordSourceId": "wiki-mudhol",
+      "geofenceM": 1200,
+      "tier": "hidden",
+      "popularity": 12,
+      "crowdProfile": "market",
+      "experience": 60,
+      "visitMin": 45,
+      "walking": "easy",
+      "plannable": false,
+      "hours": {
+        "open": "09:00",
+        "close": "17:00",
+        "verified": false,
+        "note": {
+          "en": "Info only for now: the research centre at Timmapur publishes no visiting hours — call ahead before planning a visit."
+        }
+      },
+      "fee": {
+        "indianINR": 0,
+        "verified": false
+      },
+      "images": []
+    }
+  ]
+}

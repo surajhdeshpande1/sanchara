@@ -1,0 +1,276 @@
+{
+  "version": "2026-09-20",
+  "note": "Preferred renderings for AI translation and narration. Native reviewer owns this file.",
+  "terms": [
+    {
+      "en": "Chalukya",
+      "kn": "ಚಾಲುಕ್ಯ",
+      "hi": "चालुक्य"
+    },
+    {
+      "en": "Chalukyas of Badami",
+      "kn": "ಬಾದಾಮಿ ಚಾಲುಕ್ಯರು",
+      "hi": "बादामी के चालुक्य"
+    },
+    {
+      "en": "Pulakeshin II",
+      "kn": "ಇಮ್ಮಡಿ ಪುಲಕೇಶಿ",
+      "hi": "पुलकेशिन द्वितीय"
+    },
+    {
+      "en": "Vikramaditya II",
+      "kn": "ಇಮ್ಮಡಿ ವಿಕ್ರಮಾದಿತ್ಯ",
+      "hi": "विक्रमादित्य द्वितीय"
+    },
+    {
+      "en": "Mangalesha",
+      "kn": "ಮಂಗಳೇಶ",
+      "hi": "मंगलेश"
+    },
+    {
+      "en": "Lokamahadevi",
+      "kn": "ಲೋಕಮಹಾದೇವಿ",
+      "hi": "लोकमहादेवी"
+    },
+    {
+      "en": "Ravikirti",
+      "kn": "ರವಿಕೀರ್ತಿ",
+      "hi": "रविकीर्ति"
+    },
+    {
+      "en": "Basavanna",
+      "kn": "ಬಸವಣ್ಣ",
+      "hi": "बसवण्णा"
+    },
+    {
+      "en": "Lingayatism",
+      "kn": "ಲಿಂಗಾಯತ ಧರ್ಮ",
+      "hi": "लिंगायत धर्म"
+    },
+    {
+      "en": "Vatapi",
+      "kn": "ವಾತಾಪಿ",
+      "hi": "वातापी"
+    },
+    {
+      "en": "UNESCO World Heritage Site",
+      "kn": "ಯುನೆಸ್ಕೋ ವಿಶ್ವ ಪರಂಪರೆಯ ತಾಣ",
+      "hi": "यूनेस्को विश्व धरोहर स्थल"
+    },
+    {
+      "en": "Dravida style",
+      "kn": "ದ್ರಾವಿಡ ಶೈಲಿ",
+      "hi": "द्रविड़ शैली"
+    },
+    {
+      "en": "Nagara style",
+      "kn": "ನಾಗರ ಶೈಲಿ",
+      "hi": "नागर शैली"
+    },
+    {
+      "en": "Vesara style",
+      "kn": "ವೇಸರ ಶೈಲಿ",
+      "hi": "वेसर शैली"
+    },
+    {
+      "en": "rock-cut",
+      "kn": "ಶಿಲೆಯಲ್ಲಿ ಕೊರೆದ",
+      "hi": "शैलकृत"
+    },
+    {
+      "en": "sandstone",
+      "kn": "ಮರಳುಗಲ್ಲು",
+      "hi": "बलुआ पत्थर"
+    },
+    {
+      "en": "inscription",
+      "kn": "ಶಾಸನ",
+      "hi": "शिलालेख"
+    },
+    {
+      "en": "temple tank",
+      "kn": "ಪುಷ್ಕರಿಣಿ",
+      "hi": "पुष्करिणी"
+    },
+    {
+      "en": "apsidal",
+      "kn": "ಗಜಪೃಷ್ಠಾಕಾರದ",
+      "hi": "अर्धवृत्ताकार (गजपृष्ठ)"
+    },
+    {
+      "en": "peristyle / colonnaded walkway",
+      "kn": "ಕಂಬಸಾಲಿನ ಪ್ರದಕ್ಷಿಣಾ ಪಥ",
+      "hi": "स्तंभयुक्त परिक्रमा पथ"
+    },
+    {
+      "en": "Malaprabha river",
+      "kn": "ಮಲಪ್ರಭಾ ನದಿ",
+      "hi": "मलप्रभा नदी"
+    },
+    {
+      "en": "Krishna river",
+      "kn": "ಕೃಷ್ಣಾ ನದಿ",
+      "hi": "कृष्णा नदी"
+    },
+    {
+      "en": "Tirthankara",
+      "kn": "ತೀರ್ಥಂಕರ",
+      "hi": "तीर्थंकर"
+    },
+    {
+      "en": "Shiva",
+      "kn": "ಶಿವ",
+      "hi": "शिव"
+    },
+    {
+      "en": "Vishnu",
+      "kn": "ವಿಷ್ಣು",
+      "hi": "विष्णु"
+    },
+    {
+      "en": "Ilkal saree",
+      "kn": "ಇಳಕಲ್ ಸೀರೆ",
+      "hi": "इलकल साड़ी"
+    },
+    {
+      "en": "Guledgudd khana",
+      "kn": "ಗುಳೇದಗುಡ್ಡ ಖಣ",
+      "hi": "गुलेदगुड्ड खण"
+    },
+    {
+      "en": "jolada rotti",
+      "kn": "ಜೋಳದ ರೊಟ್ಟಿ",
+      "hi": "ज्वार की रोटी"
+    },
+    {
+      "en": "estimated crowd",
+      "kn": "ಅಂದಾಜು ಜನಸಂದಣಿ",
+      "hi": "अनुमानित भीड़"
+    },
+    {
+      "en": "verified source",
+      "kn": "ಪರಿಶೀಲಿತ ಮೂಲ",
+      "hi": "सत्यापित स्रोत"
+    },
+    {
+      "en": "handloom",
+      "kn": "ಕೈಮಗ್ಗ",
+      "hi": "हथकरघा"
+    },
+    {
+      "en": "weaver",
+      "kn": "ನೇಕಾರ",
+      "hi": "बुनकर"
+    },
+    {
+      "en": "tope teni",
+      "kn": "ತೋಪ ತೆನಿ",
+      "hi": "तोप तेनी"
+    },
+    {
+      "en": "kondi technique",
+      "kn": "ಕೊಂಡಿ ತಂತ್ರ",
+      "hi": "कोंडी तकनीक"
+    },
+    {
+      "en": "khana (blouse fabric)",
+      "kn": "ಖಣ",
+      "hi": "खण"
+    },
+    {
+      "en": "pallu",
+      "kn": "ಸೆರಗು",
+      "hi": "पल्लू"
+    },
+    {
+      "en": "Kasuti embroidery",
+      "kn": "ಕಸೂತಿ",
+      "hi": "कसूती कढ़ाई"
+    },
+    {
+      "en": "Geographical Indication",
+      "kn": "ಭೌಗೋಳಿಕ ಸೂಚಕ",
+      "hi": "भौगोलिक संकेत"
+    },
+    {
+      "en": "trikuta (three-shrine temple)",
+      "kn": "ತ್ರಿಕೂಟ",
+      "hi": "त्रिकूट"
+    },
+    {
+      "en": "apsidal plan",
+      "kn": "ಅರ್ಧವೃತ್ತಾಕಾರದ ವಿನ್ಯಾಸ",
+      "hi": "अर्धवृत्ताकार योजना"
+    },
+    {
+      "en": "peristyle (pillared gallery)",
+      "kn": "ಕಂಬಸಾಲಿನ ಪ್ರದಕ್ಷಿಣಾ ಪಥ",
+      "hi": "स्तंभों वाला गलियारा"
+    },
+    {
+      "en": "Saptamatrikas",
+      "kn": "ಸಪ್ತಮಾತೃಕೆಯರು",
+      "hi": "सप्तमातृकाएँ"
+    },
+    {
+      "en": "tripadi (three-line metre)",
+      "kn": "ತ್ರಿಪದಿ",
+      "hi": "त्रिपदी"
+    },
+    {
+      "en": "Lajja Gauri",
+      "kn": "ಲಜ್ಜಾಗೌರಿ",
+      "hi": "लज्जा गौरी"
+    },
+    {
+      "en": "deepa stambha (lamp tower)",
+      "kn": "ದೀಪಸ್ತಂಭ",
+      "hi": "दीप स्तंभ"
+    },
+    {
+      "en": "pushkarini (temple tank)",
+      "kn": "ಪುಷ್ಕರಿಣಿ",
+      "hi": "पुष्करिणी"
+    },
+    {
+      "en": "swayambhu (self-born)",
+      "kn": "ಸ್ವಯಂಭು",
+      "hi": "स्वयंभू"
+    },
+    {
+      "en": "Aikya Mantapa",
+      "kn": "ಐಕ್ಯ ಮಂಟಪ",
+      "hi": "ऐक्य मंडप"
+    },
+    {
+      "en": "barrage",
+      "kn": "ಬ್ಯಾರೇಜ್",
+      "hi": "बैराज"
+    },
+    {
+      "en": "Mudhol Hound",
+      "kn": "ಮುಧೋಳ ನಾಯಿ",
+      "hi": "मुधोल हाउंड"
+    },
+    {
+      "en": "Shrama Bindu Sagar",
+      "kn": "ಶ್ರಮಬಿಂದು ಸಾಗರ",
+      "hi": "श्रमबिंदु सागर"
+    },
+    {
+      "en": "Dakshina Kashi",
+      "kn": "ದಕ್ಷಿಣ ಕಾಶಿ",
+      "hi": "दक्षिण काशी"
+    },
+    {
+      "en": "jatre (temple fair)",
+      "kn": "ಜಾತ್ರೆ",
+      "hi": "जात्रा"
+    },
+    {
+      "en": "sighthound",
+      "kn": "ಬೇಟೆ ನಾಯಿ ತಳಿ",
+      "hi": "शिकारी कुत्ते की नस्ल"
+    }
+  ]
+}

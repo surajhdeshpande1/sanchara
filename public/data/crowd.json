@@ -1,0 +1,280 @@
+{
+ "version": "2026-09-20",
+ "label": "Estimated Crowd Index (prototype model — not live telemetry)",
+ "thresholds": {
+  "moderate": 35,
+  "high": 60,
+  "veryHigh": 80
+ },
+ "weekday": [
+  1.35,
+  0.8,
+  0.8,
+  0.82,
+  0.85,
+  0.9,
+  1.2
+ ],
+ "month": [
+  1.2,
+  1.1,
+  0.9,
+  0.8,
+  0.85,
+  0.75,
+  0.8,
+  0.9,
+  0.95,
+  1.1,
+  1.2,
+  1.3
+ ],
+ "hourly": {
+  "monument": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.1,
+   0.2,
+   0.3,
+   0.45,
+   0.7,
+   0.9,
+   1,
+   1,
+   0.95,
+   0.9,
+   0.8,
+   0.6,
+   0.3,
+   0.1,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "temple": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.2,
+   0.6,
+   0.8,
+   0.9,
+   0.8,
+   0.7,
+   0.8,
+   0.9,
+   0.6,
+   0.4,
+   0.4,
+   0.6,
+   0.9,
+   1,
+   0.9,
+   0.5,
+   0.2,
+   0.0,
+   0.0
+  ],
+  "nature": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.2,
+   0.3,
+   0.3,
+   0.35,
+   0.45,
+   0.55,
+   0.6,
+   0.6,
+   0.6,
+   0.7,
+   0.9,
+   1,
+   0.9,
+   0.5,
+   0.2,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "museum": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.3,
+   0.6,
+   0.9,
+   1,
+   0.9,
+   0.8,
+   0.8,
+   0.6,
+   0.1,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0
+  ],
+  "market": [
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.0,
+   0.2,
+   0.4,
+   0.6,
+   0.8,
+   0.8,
+   0.7,
+   0.6,
+   0.7,
+   0.8,
+   0.9,
+   1,
+   0.9,
+   0.6,
+   0.2,
+   0.0,
+   0.0
+  ]
+ },
+ "events": [
+  {
+   "id": "banashankari-jatre",
+   "name": {
+    "en": "Banashankari Jatre",
+    "kn": "ಬನಶಂಕರಿ ಜಾತ್ರೆ",
+    "hi": "बनशंकरी जात्रा"
+   },
+   "siteIds": [
+    "banashankari"
+   ],
+   "from": "01-05",
+   "to": "02-15",
+   "factor": 1.8,
+   "verified": false,
+   "note": "Held in Pushya month (Jan–Feb), about three weeks; exact dates follow the lunar calendar."
+  },
+  {
+   "id": "navaratri-banashankari",
+   "name": {
+    "en": "Navaratri at Banashankari",
+    "kn": "ಬನಶಂಕರಿಯಲ್ಲಿ ನವರಾತ್ರಿ",
+    "hi": "बनशंकरी में नवरात्रि"
+   },
+   "siteIds": [
+    "banashankari"
+   ],
+   "from": "10-01",
+   "to": "10-15",
+   "factor": 1.5,
+   "verified": false,
+   "note": "Approximate window; lunar calendar."
+  },
+  {
+   "id": "basava-jayanti",
+   "name": {
+    "en": "Basava Jayanti",
+    "kn": "ಬಸವ ಜಯಂತಿ",
+    "hi": "बसव जयंती"
+   },
+   "siteIds": [
+    "kudalasangama"
+   ],
+   "from": "04-20",
+   "to": "05-10",
+   "factor": 1.7,
+   "verified": false,
+   "note": "Approximate window; lunar calendar."
+  },
+  {
+   "id": "almatti-monsoon",
+   "name": {
+    "en": "Monsoon water release at Almatti",
+    "kn": "ಆಲಮಟ್ಟಿಯಲ್ಲಿ ಮಳೆಗಾಲದ ನೀರು ಬಿಡುಗಡೆ",
+    "hi": "आलमट्टी में मानसून जल निकासी"
+   },
+   "siteIds": [
+    "almatti"
+   ],
+   "from": "08-01",
+   "to": "09-30",
+   "factor": 1.35,
+   "verified": false,
+   "note": "Visitors come to see the crest gates open in heavy-inflow years."
+  },
+  {
+   "id": "year-end-holidays",
+   "name": {
+    "en": "Year-end holidays",
+    "kn": "ವರ್ಷಾಂತ್ಯದ ರಜೆ",
+    "hi": "वर्षांत की छुट्टियाँ"
+   },
+   "siteIds": [
+    "badami-caves",
+    "pattadakal",
+    "aihole-durga",
+    "bhutanatha",
+    "agastya-lake"
+   ],
+   "from": "12-22",
+   "to": "01-02",
+   "factor": 1.3,
+   "verified": false
+  }
+ ],
+ "scenarios": [
+  {
+   "id": "sunday-1230",
+   "label": {
+    "en": "Sunday 12:30 — peak pressure (demo)",
+    "kn": "ಭಾನುವಾರ 12:30 — ಗರಿಷ್ಠ ಒತ್ತಡ (ಡೆಮೊ)",
+    "hi": "रविवार 12:30 — अधिकतम दबाव (डेमो)"
+   },
+   "at": "2026-09-27T12:30",
+   "overrides": {
+    "badami-caves": 88,
+    "bhutanatha": 64,
+    "agastya-lake": 52,
+    "pattadakal": 69,
+    "aihole-durga": 47,
+    "mahakuta": 23,
+    "banashankari": 58,
+    "kudalasangama": 31
+   }
+  },
+  {
+   "id": "weekday-0830",
+   "label": {
+    "en": "Tuesday 08:30 — quiet morning (demo)",
+    "kn": "ಮಂಗಳವಾರ 08:30 — ಶಾಂತ ಬೆಳಗು (ಡೆಮೊ)",
+    "hi": "मंगलवार 08:30 — शांत सुबह (डेमो)"
+   },
+   "at": "2026-09-22T08:30",
+   "overrides": {}
+  }
+ ]
+}

@@ -1,0 +1,660 @@
+{
+  "version": "2026-09-20",
+  "note": "Demo listings are labelled 'Demo ·' and carry status 'demo' — placeholders until a consented partner replaces them. Verified listings carry the evidence that backs the badge; no listing is shown as verified without it. Opening hours are only recorded where a source states them; the planner assumes a generic 08:00–21:00 window otherwise.",
+  "businesses": [
+    {
+      "id": "demo-bdm-rotti",
+      "name": {
+        "en": "Demo · Jolada Rotti Kitchen",
+        "kn": "ಡೆಮೊ · ಜೋಳದ ರೊಟ್ಟಿ ಅಡುಗೆಮನೆ",
+        "hi": "डेमो · ज्वार रोटी रसोई"
+      },
+      "category": "food",
+      "subcategory": "North Karnataka meals",
+      "town": "Badami",
+      "cluster": "badami",
+      "location": {
+        "lat": 15.9168,
+        "lng": 75.6812
+      },
+      "priceBand": 1,
+      "typicalSpendINR": 180,
+      "visitMin": 45,
+      "offers": [
+        {
+          "en": "Jolada rotti meals",
+          "kn": "ಜೋಳದ ರೊಟ್ಟಿ ಊಟ",
+          "hi": "ज्वार की रोटी की थाली"
+        }
+      ],
+      "verification": {
+        "status": "demo",
+        "evidence": "Placeholder for the prototype — replace with a consented, verified partner."
+      },
+      "isDemo": true,
+      "hours": {
+        "open": "11:30",
+        "close": "22:00"
+      }
+    },
+    {
+      "id": "demo-bdm-homestay",
+      "name": {
+        "en": "Demo · Cliffview Homestay",
+        "kn": "ಡೆಮೊ · ಕ್ಲಿಫ್‌ವ್ಯೂ ಹೋಮ್‌ಸ್ಟೇ",
+        "hi": "डेमो · क्लिफव्यू होमस्टे"
+      },
+      "category": "stay",
+      "subcategory": "Homestay",
+      "town": "Badami",
+      "cluster": "badami",
+      "location": {
+        "lat": 15.915,
+        "lng": 75.679
+      },
+      "priceBand": 2,
+      "typicalSpendINR": 1800,
+      "visitMin": 0,
+      "offers": [
+        {
+          "en": "Family rooms, home-cooked breakfast",
+          "kn": "ಕುಟುಂಬ ಕೊಠಡಿಗಳು, ಮನೆಯ ಉಪಾಹಾರ",
+          "hi": "पारिवारिक कमरे, घर का नाश्ता"
+        }
+      ],
+      "verification": {
+        "status": "demo",
+        "evidence": "Placeholder for the prototype — replace with a consented, verified partner."
+      },
+      "isDemo": true
+    },
+    {
+      "id": "demo-bdm-guides",
+      "name": {
+        "en": "Demo · Badami Heritage Guides Collective",
+        "kn": "ಡೆಮೊ · ಬಾದಾಮಿ ಪರಂಪರೆ ಮಾರ್ಗದರ್ಶಿಗಳ ಸಂಘ",
+        "hi": "डेमो · बादामी हेरिटेज गाइड समूह"
+      },
+      "category": "experience",
+      "subcategory": "Local guides",
+      "town": "Badami",
+      "cluster": "badami",
+      "location": {
+        "lat": 15.918,
+        "lng": 75.685
+      },
+      "priceBand": 2,
+      "typicalSpendINR": 300,
+      "visitMin": 60,
+      "offers": [
+        {
+          "en": "Guided cave walk in Kannada, Hindi or English",
+          "kn": "ಕನ್ನಡ, ಹಿಂದಿ ಅಥವಾ ಇಂಗ್ಲಿಷ್‌ನಲ್ಲಿ ಮಾರ್ಗದರ್ಶಿತ ಗುಹಾ ನಡಿಗೆ",
+          "hi": "कन्नड़, हिंदी या अंग्रेज़ी में गाइडेड गुफा भ्रमण"
+        }
+      ],
+      "verification": {
+        "status": "demo",
+        "evidence": "Placeholder for the prototype — replace with a consented, verified partner."
+      },
+      "isDemo": true,
+      "hours": {
+        "open": "07:00",
+        "close": "18:00"
+      }
+    },
+    {
+      "id": "demo-bns-snacks",
+      "name": {
+        "en": "Demo · Temple Street Girmit Stall",
+        "kn": "ಡೆಮೊ · ದೇವಸ್ಥಾನ ಬೀದಿಯ ಗಿರ್ಮಿಟ್ ಅಂಗಡಿ",
+        "hi": "डेमो · मंदिर गली गिरमिट स्टॉल"
+      },
+      "category": "food",
+      "subcategory": "Street snacks",
+      "town": "Banashankari",
+      "cluster": "banashankari",
+      "location": {
+        "lat": 15.8885,
+        "lng": 75.704
+      },
+      "priceBand": 1,
+      "typicalSpendINR": 80,
+      "visitMin": 30,
+      "offers": [
+        {
+          "en": "Girmit, mirchi bajji, tea",
+          "kn": "ಗಿರ್ಮಿಟ್, ಮೆಣಸಿನಕಾಯಿ ಬಜ್ಜಿ, ಚಹಾ",
+          "hi": "गिरमिट, मिर्ची भज्जी, चाय"
+        }
+      ],
+      "verification": {
+        "status": "demo",
+        "evidence": "Placeholder for the prototype — replace with a consented, verified partner."
+      },
+      "isDemo": true,
+      "hours": {
+        "open": "07:00",
+        "close": "20:00"
+      }
+    },
+    {
+      "id": "demo-ptk-meals",
+      "name": {
+        "en": "Demo · Riverside Meals, Pattadakal",
+        "kn": "ಡೆಮೊ · ನದಿತೀರದ ಊಟ, ಪಟ್ಟದಕಲ್ಲು",
+        "hi": "डेमो · नदी किनारे भोजन, पट्टदकल"
+      },
+      "category": "food",
+      "subcategory": "North Karnataka meals",
+      "town": "Pattadakal",
+      "cluster": "pattadakal",
+      "location": {
+        "lat": 15.95,
+        "lng": 75.813
+      },
+      "priceBand": 1,
+      "typicalSpendINR": 200,
+      "visitMin": 45,
+      "offers": [
+        {
+          "en": "Rotti, ennegai, curd rice",
+          "kn": "ರೊಟ್ಟಿ, ಎಣ್ಣೆಗಾಯಿ, ಮೊಸರನ್ನ",
+          "hi": "रोटी, एन्नेगाई, दही-चावल"
+        }
+      ],
+      "verification": {
+        "status": "demo",
+        "evidence": "Placeholder for the prototype — replace with a consented, verified partner."
+      },
+      "isDemo": true,
+      "hours": {
+        "open": "11:30",
+        "close": "21:00"
+      }
+    },
+    {
+      "id": "demo-ptk-stonecraft",
+      "name": {
+        "en": "Demo · Sandstone Carving Workshop",
+        "kn": "ಡೆಮೊ · ಮರಳುಗಲ್ಲು ಶಿಲ್ಪ ಕಾರ್ಯಾಗಾರ",
+        "hi": "डेमो · बलुआ पत्थर नक्काशी कार्यशाला"
+      },
+      "category": "artisan",
+      "subcategory": "Stone carving",
+      "town": "Pattadakal",
+      "cluster": "pattadakal",
+      "location": {
+        "lat": 15.953,
+        "lng": 75.812
+      },
+      "priceBand": 2,
+      "typicalSpendINR": 250,
+      "visitMin": 30,
+      "offers": [
+        {
+          "en": "Watch carvers at work, small replicas",
+          "kn": "ಶಿಲ್ಪಿಗಳ ಕೆಲಸ ನೋಡಿ, ಪುಟ್ಟ ಪ್ರತಿಕೃತಿಗಳು",
+          "hi": "शिल्पकारों को काम करते देखें, छोटी प्रतिकृतियाँ"
+        }
+      ],
+      "verification": {
+        "status": "demo",
+        "evidence": "Placeholder for the prototype — replace with a consented, verified partner."
+      },
+      "isDemo": true,
+      "hours": {
+        "open": "09:00",
+        "close": "18:00"
+      }
+    },
+    {
+      "id": "demo-aih-kitchen",
+      "name": {
+        "en": "Demo · Village Kitchen, Aihole",
+        "kn": "ಡೆಮೊ · ಹಳ್ಳಿ ಅಡುಗೆಮನೆ, ಐಹೊಳೆ",
+        "hi": "डेमो · गाँव की रसोई, ऐहोल"
+      },
+      "category": "food",
+      "subcategory": "Home-style meals",
+      "town": "Aihole",
+      "cluster": "aihole",
+      "location": {
+        "lat": 16.018,
+        "lng": 75.88
+      },
+      "priceBand": 1,
+      "typicalSpendINR": 150,
+      "visitMin": 45,
+      "offers": [
+        {
+          "en": "Home-style lunch",
+          "kn": "ಮನೆಯ ಶೈಲಿಯ ಮಧ್ಯಾಹ್ನದ ಊಟ",
+          "hi": "घर जैसा दोपहर का भोजन"
+        }
+      ],
+      "verification": {
+        "status": "demo",
+        "evidence": "Placeholder for the prototype — replace with a consented, verified partner."
+      },
+      "isDemo": true,
+      "hours": {
+        "open": "12:00",
+        "close": "16:00"
+      }
+    },
+    {
+      "id": "demo-aih-farmstay",
+      "name": {
+        "en": "Demo · Farm Homestay, Aihole",
+        "kn": "ಡೆಮೊ · ತೋಟದ ಹೋಮ್‌ಸ್ಟೇ, ಐಹೊಳೆ",
+        "hi": "डेमो · फ़ार्म होमस्टे, ऐहोल"
+      },
+      "category": "stay",
+      "subcategory": "Farm stay",
+      "town": "Aihole",
+      "cluster": "aihole",
+      "location": {
+        "lat": 16.015,
+        "lng": 75.875
+      },
+      "priceBand": 2,
+      "typicalSpendINR": 1500,
+      "visitMin": 0,
+      "offers": [
+        {
+          "en": "Farm stay near the temples",
+          "kn": "ದೇವಾಲಯಗಳ ಸಮೀಪ ತೋಟದ ವಸತಿ",
+          "hi": "मंदिरों के पास फ़ार्म स्टे"
+        }
+      ],
+      "verification": {
+        "status": "demo",
+        "evidence": "Placeholder for the prototype — replace with a consented, verified partner."
+      },
+      "isDemo": true
+    },
+    {
+      "id": "demo-ilk-weaver",
+      "name": {
+        "en": "Demo · Ilkal Weaver Studio",
+        "kn": "ಡೆಮೊ · ಇಳಕಲ್ ನೇಕಾರರ ಸ್ಟುಡಿಯೋ",
+        "hi": "डेमो · इलकल बुनकर स्टूडियो"
+      },
+      "category": "artisan",
+      "subcategory": "Ilkal saree weaving",
+      "town": "Ilkal",
+      "cluster": "ilkal",
+      "location": {
+        "lat": 15.971,
+        "lng": 76.129
+      },
+      "priceBand": 2,
+      "typicalSpendINR": 400,
+      "visitMin": 45,
+      "offers": [
+        {
+          "en": "Live loom demonstration",
+          "kn": "ನೇರ ಮಗ್ಗ ಪ್ರದರ್ಶನ",
+          "hi": "करघे का सजीव प्रदर्शन"
+        },
+        {
+          "en": "Buy direct from the weaver",
+          "kn": "ನೇರವಾಗಿ ನೇಕಾರರಿಂದ ಖರೀದಿ",
+          "hi": "सीधे बुनकर से खरीदें"
+        }
+      ],
+      "verification": {
+        "status": "demo",
+        "evidence": "Placeholder for the prototype — replace with a consented, verified partner."
+      },
+      "isDemo": true,
+      "hours": {
+        "open": "10:00",
+        "close": "18:30"
+      }
+    },
+    {
+      "id": "demo-ilk-showroom",
+      "name": {
+        "en": "Demo · Weavers' Cooperative Showroom",
+        "kn": "ಡೆಮೊ · ನೇಕಾರರ ಸಹಕಾರಿ ಮಳಿಗೆ",
+        "hi": "डेमो · बुनकर सहकारी शोरूम"
+      },
+      "category": "shop",
+      "subcategory": "Handloom sarees",
+      "town": "Ilkal",
+      "cluster": "ilkal",
+      "location": {
+        "lat": 15.969,
+        "lng": 76.131
+      },
+      "priceBand": 3,
+      "typicalSpendINR": 1500,
+      "visitMin": 30,
+      "offers": [
+        {
+          "en": "Ilkal sarees and fabrics",
+          "kn": "ಇಳಕಲ್ ಸೀರೆಗಳು ಮತ್ತು ಬಟ್ಟೆಗಳು",
+          "hi": "इलकल साड़ियाँ और कपड़े"
+        }
+      ],
+      "verification": {
+        "status": "demo",
+        "evidence": "Placeholder for the prototype — replace with a consented, verified partner."
+      },
+      "isDemo": true,
+      "hours": {
+        "open": "10:00",
+        "close": "20:00"
+      }
+    },
+    {
+      "id": "demo-gdg-khana",
+      "name": {
+        "en": "Demo · Khana Weaving House",
+        "kn": "ಡೆಮೊ · ಖಣ ನೇಯ್ಗೆ ಮನೆ",
+        "hi": "डेमो · खण बुनाई घर"
+      },
+      "category": "artisan",
+      "subcategory": "Guledgudd khana",
+      "town": "Guledgudd",
+      "cluster": "guledgudd",
+      "location": {
+        "lat": 16.051,
+        "lng": 75.799
+      },
+      "priceBand": 2,
+      "typicalSpendINR": 600,
+      "visitMin": 40,
+      "offers": [
+        {
+          "en": "See khana fabric woven; buy blouse pieces",
+          "kn": "ಖಣ ನೇಯುವುದನ್ನು ನೋಡಿ; ರವಿಕೆ ಬಟ್ಟೆ ಖರೀದಿಸಿ",
+          "hi": "खण बुनाई देखें; ब्लाउज़ पीस खरीदें"
+        }
+      ],
+      "verification": {
+        "status": "demo",
+        "evidence": "Placeholder for the prototype — replace with a consented, verified partner."
+      },
+      "isDemo": true,
+      "hours": {
+        "open": "10:00",
+        "close": "18:30"
+      }
+    },
+    {
+      "id": "demo-kds-meals",
+      "name": {
+        "en": "Demo · Riverside Dasoha-style Meals",
+        "kn": "ಡೆಮೊ · ನದಿತೀರದ ದಾಸೋಹ ಶೈಲಿಯ ಊಟ",
+        "hi": "डेमो · नदी किनारे दासोह शैली भोजन"
+      },
+      "category": "food",
+      "subcategory": "Simple meals",
+      "town": "Kudalasangama",
+      "cluster": "kudalasangama",
+      "location": {
+        "lat": 16.202,
+        "lng": 76.058
+      },
+      "priceBand": 1,
+      "typicalSpendINR": 100,
+      "visitMin": 40,
+      "offers": [
+        {
+          "en": "Simple North Karnataka meals",
+          "kn": "ಸರಳ ಉತ್ತರ ಕರ್ನಾಟಕ ಊಟ",
+          "hi": "सादा उत्तर कर्नाटक भोजन"
+        }
+      ],
+      "verification": {
+        "status": "demo",
+        "evidence": "Placeholder for the prototype — replace with a consented, verified partner."
+      },
+      "isDemo": true,
+      "hours": {
+        "open": "11:30",
+        "close": "21:00"
+      }
+    },
+    {
+      "id": "demo-kds-stay",
+      "name": {
+        "en": "Demo · Riverside Guest House",
+        "kn": "ಡೆಮೊ · ನದಿತೀರದ ಅತಿಥಿಗೃಹ",
+        "hi": "डेमो · नदी किनारे अतिथि गृह"
+      },
+      "category": "stay",
+      "subcategory": "Guest house",
+      "town": "Kudalasangama",
+      "cluster": "kudalasangama",
+      "location": {
+        "lat": 16.205,
+        "lng": 76.055
+      },
+      "priceBand": 1,
+      "typicalSpendINR": 900,
+      "visitMin": 0,
+      "offers": [
+        {
+          "en": "Budget rooms near the confluence",
+          "kn": "ಸಂಗಮದ ಬಳಿ ಕಡಿಮೆ ದರದ ಕೊಠಡಿಗಳು",
+          "hi": "संगम के पास किफ़ायती कमरे"
+        }
+      ],
+      "verification": {
+        "status": "demo",
+        "evidence": "Placeholder for the prototype — replace with a consented, verified partner."
+      },
+      "isDemo": true
+    },
+    {
+      "id": "demo-alm-snacks",
+      "name": {
+        "en": "Demo · Garden Gate Snacks, Almatti",
+        "kn": "ಡೆಮೊ · ಉದ್ಯಾನ ದ್ವಾರದ ತಿಂಡಿ, ಆಲಮಟ್ಟಿ",
+        "hi": "डेमो · उद्यान द्वार नाश्ता, आलमट्टी"
+      },
+      "category": "food",
+      "subcategory": "Snacks",
+      "town": "Almatti",
+      "cluster": "almatti",
+      "location": {
+        "lat": 16.328,
+        "lng": 75.885
+      },
+      "priceBand": 1,
+      "typicalSpendINR": 100,
+      "visitMin": 30,
+      "offers": [
+        {
+          "en": "Snacks and tea",
+          "kn": "ತಿಂಡಿ ಮತ್ತು ಚಹಾ",
+          "hi": "नाश्ता और चाय"
+        }
+      ],
+      "verification": {
+        "status": "demo",
+        "evidence": "Placeholder for the prototype — replace with a consented, verified partner."
+      },
+      "isDemo": true,
+      "hours": {
+        "open": "10:00",
+        "close": "20:00"
+      }
+    },
+    {
+      "id": "demo-mhk-flowers",
+      "name": {
+        "en": "Demo · Mahakuta Flower & Prasad Stall",
+        "kn": "ಡೆಮೊ · ಮಹಾಕೂಟ ಹೂ ಮತ್ತು ಪ್ರಸಾದ ಅಂಗಡಿ",
+        "hi": "डेमो · महाकूट फूल और प्रसाद स्टॉल"
+      },
+      "category": "shop",
+      "subcategory": "Temple stall",
+      "town": "Mahakuta",
+      "cluster": "mahakuta",
+      "location": {
+        "lat": 15.932,
+        "lng": 75.72
+      },
+      "priceBand": 1,
+      "typicalSpendINR": 60,
+      "visitMin": 15,
+      "offers": [
+        {
+          "en": "Flowers, prasad, local snacks",
+          "kn": "ಹೂ, ಪ್ರಸಾದ, ಸ್ಥಳೀಯ ತಿಂಡಿ",
+          "hi": "फूल, प्रसाद, स्थानीय नाश्ता"
+        }
+      ],
+      "verification": {
+        "status": "demo",
+        "evidence": "Placeholder for the prototype — replace with a consented, verified partner."
+      },
+      "isDemo": true,
+      "hours": {
+        "open": "06:00",
+        "close": "19:00"
+      }
+    },
+    {
+      "id": "kstdc-mayura-chalukya-badami",
+      "name": {
+        "en": "KSTDC Hotel Mayura Chalukya, Badami",
+        "kn": "ಕೆಎಸ್‌ಟಿಡಿಸಿ ಹೋಟೆಲ್ ಮಯೂರ ಚಾಲುಕ್ಯ, ಬಾದಾಮಿ",
+        "hi": "KSTDC होटल मयूर चालुक्य, बादामी"
+      },
+      "category": "stay",
+      "subcategory": "Government-run hotel",
+      "town": "Badami",
+      "cluster": "badami",
+      "location": {
+        "lat": 15.9196,
+        "lng": 75.6802
+      },
+      "coordVerified": false,
+      "priceBand": 2,
+      "typicalSpendINR": 1919,
+      "visitMin": 0,
+      "offers": [
+        {
+          "en": "AC and non-AC rooms, dome house and wooden cottage",
+          "kn": "ಎಸಿ ಮತ್ತು ನಾನ್-ಎಸಿ ಕೊಠಡಿಗಳು, ಡೋಮ್ ಹೌಸ್ ಮತ್ತು ಮರದ ಕಾಟೇಜ್",
+          "hi": "एसी और नॉन-एसी कमरे, डोम हाउस और लकड़ी का कॉटेज"
+        },
+        {
+          "en": "Restaurant on site, close to the bus stand",
+          "kn": "ಆವರಣದಲ್ಲೇ ಉಪಹಾರ ಗೃಹ, ಬಸ್ ನಿಲ್ದಾಣಕ್ಕೆ ಹತ್ತಿರ",
+          "hi": "परिसर में रेस्टोरेंट, बस स्टैंड के पास"
+        }
+      ],
+      "verification": {
+        "status": "gov_listed",
+        "by": "KSTDC official website",
+        "at": "2026-09-20",
+        "evidence": "Listed by the Karnataka State Tourism Development Corporation: https://kstdc.co/hotels/hotel-mayura-chalukya-badami/"
+      },
+      "isDemo": false,
+      "sourceIds": [
+        "kstdc-mayura-chalukya"
+      ],
+      "contact": {
+        "phone": "08357-220046",
+        "url": "https://kstdc.co/hotels/hotel-mayura-chalukya-badami/"
+      }
+    },
+    {
+      "id": "kstdc-mayura-krishna-almatti",
+      "name": {
+        "en": "KSTDC Hotel Mayura Krishna, Almatti",
+        "kn": "ಕೆಎಸ್‌ಟಿಡಿಸಿ ಹೋಟೆಲ್ ಮಯೂರ ಕೃಷ್ಣಾ, ಆಲಮಟ್ಟಿ",
+        "hi": "KSTDC होटल मयूर कृष्णा, आलमट्टी"
+      },
+      "category": "stay",
+      "subcategory": "Government-run hotel",
+      "town": "Almatti",
+      "cluster": "almatti",
+      "location": {
+        "lat": 16.3295,
+        "lng": 75.887
+      },
+      "coordVerified": false,
+      "priceBand": 2,
+      "typicalSpendINR": 2200,
+      "visitMin": 0,
+      "offers": [
+        {
+          "en": "12 rooms, 2 suites and 7 cottages on a hill above the dam",
+          "kn": "ಅಣೆಕಟ್ಟೆಯ ಮೇಲಿನ ಬೆಟ್ಟದಲ್ಲಿ 12 ಕೊಠಡಿ, 2 ಸೂಟ್ ಮತ್ತು 7 ಕಾಟೇಜ್",
+          "hi": "बाँध के ऊपर पहाड़ी पर 12 कमरे, 2 सुइट और 7 कॉटेज"
+        },
+        {
+          "en": "Restaurant with views of the Krishna and the gardens",
+          "kn": "ಕೃಷ್ಣಾ ನದಿ ಮತ್ತು ಉದ್ಯಾನಗಳ ನೋಟವಿರುವ ಉಪಹಾರ ಗೃಹ",
+          "hi": "कृष्णा नदी और उद्यानों के दृश्य वाला रेस्टोरेंट"
+        }
+      ],
+      "verification": {
+        "status": "gov_listed",
+        "by": "KSTDC official website",
+        "at": "2026-09-20",
+        "evidence": "Described on KSTDC’s own site: https://kstdc.co/uncategorized/almatti-the-peaceful-weekend-getaway-in-north-karnataka/"
+      },
+      "isDemo": false,
+      "sourceIds": [
+        "kstdc-almatti"
+      ],
+      "contact": {
+        "url": "https://kstdc.co/uncategorized/almatti-the-peaceful-weekend-getaway-in-north-karnataka/"
+      }
+    },
+    {
+      "id": "guledgudd-khana-coop",
+      "name": {
+        "en": "Guledgudd Handloom Weavers Co-operative Society",
+        "kn": "ಗುಳೇದಗುಡ್ಡ ಕೈಮಗ್ಗ ನೇಕಾರರ ಸಹಕಾರ ಸಂಘ",
+        "hi": "गुलेदगुड्ड हथकरघा बुनकर सहकारी समिति"
+      },
+      "category": "shop",
+      "subcategory": "Handloom co-operative (khana)",
+      "town": "Guledgudda",
+      "cluster": "guledgudd",
+      "location": {
+        "lat": 16.0503,
+        "lng": 75.7997
+      },
+      "coordVerified": false,
+      "priceBand": 1,
+      "typicalSpendINR": 450,
+      "visitMin": 35,
+      "offers": [
+        {
+          "en": "Guledgudd khana, the GI-registered blouse fabric",
+          "kn": "ಭೌಗೋಳಿಕ ಸೂಚಕ ನೋಂದಾಯಿತ ಗುಳೇದಗುಡ್ಡ ಖಣ",
+          "hi": "GI-पंजीकृत गुलेदगुड्ड खण"
+        },
+        {
+          "en": "Handloom pieces bought straight from the weavers’ society",
+          "kn": "ನೇಕಾರರ ಸಂಘದಿಂದ ನೇರವಾಗಿ ಕೈಮಗ್ಗದ ಬಟ್ಟೆ",
+          "hi": "बुनकर समिति से सीधे हथकरघा कपड़े"
+        }
+      ],
+      "verification": {
+        "status": "gi_registered",
+        "by": "Intellectual Property India — GI Registry",
+        "at": "2026-09-20",
+        "evidence": "Registered proprietor of GI application 210, Guledgudd Khana: https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/210 (address: Ward No.5, Bhavanipet, Guledgudd)"
+      },
+      "isDemo": false,
+      "sourceIds": [
+        "gi-210"
+      ],
+      "contact": {
+        "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/210"
+      }
+    }
+  ]
+}

@@ -1,0 +1,414 @@
+{
+  "version": 2,
+  "note": "Tier A government/UNESCO/ASI/GI registry/state institutions · B encyclopedic, scholarly or established press · C maps & listings · D user content (never the only source).",
+  "sources": [
+    {
+      "id": "unesco-239",
+      "publisher": "UNESCO World Heritage Centre",
+      "title": "Group of Monuments at Pattadakal",
+      "url": "https://whc.unesco.org/en/list/239/",
+      "tier": "A",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "kt-badami",
+      "publisher": "Karnataka Tourism (Govt. of Karnataka)",
+      "title": "Badami — cave temples, fort & travel guide",
+      "url": "https://karnatakatourism.org/en/destinations/badami",
+      "tier": "A",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "kt-aihole",
+      "publisher": "Karnataka Tourism (Govt. of Karnataka)",
+      "title": "Aihole",
+      "url": "https://karnatakatourism.org/en/destinations/aihole/",
+      "tier": "A",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "kt-pattadakal",
+      "publisher": "Karnataka Tourism (Govt. of Karnataka)",
+      "title": "Pattadakal",
+      "url": "https://karnatakatourism.org/en/destinations/pattadakal",
+      "tier": "A",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "kt-kudalasangama",
+      "publisher": "Karnataka Tourism (Govt. of Karnataka)",
+      "title": "Kudalasangama",
+      "url": "https://karnatakatourism.org/en/attractions/kudalasangama",
+      "tier": "A",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "kt-lavkush",
+      "publisher": "Karnataka Tourism (Govt. of Karnataka)",
+      "title": "Lav Kush Garden, Almatti",
+      "url": "https://karnatakatourism.org/en/attractions/lav-kush-garden-almatti",
+      "tier": "A",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "kt-bagalkote-old",
+      "publisher": "Karnataka Tourism (archived site)",
+      "title": "Bagalkote — places to visit",
+      "url": "https://old.karnatakatourism.org/tour-item/bagalkote/",
+      "tier": "A",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "kstdc-almatti",
+      "publisher": "Karnataka State Tourism Development Corporation",
+      "title": "Almatti: the peaceful weekend getaway in North Karnataka",
+      "url": "https://kstdc.co/uncategorized/almatti-the-peaceful-weekend-getaway-in-north-karnataka/",
+      "tier": "A",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "kstdc-mayura-chalukya",
+      "publisher": "Karnataka State Tourism Development Corporation",
+      "title": "Mayura Chalukya, Badami",
+      "url": "https://kstdc.co/hotels/hotel-mayura-chalukya-badami/",
+      "tier": "A",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "dist-kudalasangama",
+      "publisher": "Bagalkot District Administration (NIC)",
+      "title": "Kudalasangama",
+      "url": "https://bagalkot.nic.in/en/tourist-place/kudalasangama/",
+      "tier": "A",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "asi-badami-museum",
+      "publisher": "Archaeological Survey of India, Dharwad Circle",
+      "title": "Badami Museum",
+      "url": "http://www.asidharwadcircle.in/badami-museum/",
+      "tier": "A",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "ii-badami-museum",
+      "publisher": "Incredible India (Ministry of Tourism)",
+      "title": "Badami Archaeological Museum",
+      "url": "https://www.incredibleindia.gov.in/en/karnataka/badami/archaeological-museum",
+      "tier": "A",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "ii-mahakuta",
+      "publisher": "Incredible India (Ministry of Tourism)",
+      "title": "Mahakuta group of temples",
+      "url": "https://www.incredibleindia.gov.in/en/karnataka/bagalkote/mahakuta-group-of-temples",
+      "tier": "A",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "ii-ilkal",
+      "publisher": "Incredible India (Ministry of Tourism)",
+      "title": "Ilkal Sarees",
+      "url": "https://www.incredibleindia.gov.in/en/karnataka/ilkal-sarees",
+      "tier": "A",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "ii-khana",
+      "publisher": "Incredible India (Ministry of Tourism)",
+      "title": "Guledgudd Khana",
+      "url": "https://www.incredibleindia.gov.in/en/karnataka/guledgudd-khana",
+      "tier": "A",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "gi-76",
+      "publisher": "Intellectual Property India — GI Registry",
+      "title": "Ilkal Sarees (GI application 76)",
+      "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/76",
+      "tier": "A",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "gi-210",
+      "publisher": "Intellectual Property India — GI Registry",
+      "title": "Guledgudd Khana (GI application 210)",
+      "url": "https://search.ipindia.gov.in/GIRPublicSearch/Application/Details/210",
+      "tier": "A",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "kvafsu-cric",
+      "publisher": "Karnataka Veterinary, Animal & Fisheries Sciences University",
+      "title": "Canine Research & Information Center (Mudhol Hound), Timmapur",
+      "url": "https://kvafsu.edu.in/crict_bagalkot.html",
+      "tier": "A",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "wiki-badami-caves",
+      "publisher": "Wikipedia",
+      "title": "Badami cave temples",
+      "url": "https://en.wikipedia.org/wiki/Badami_cave_temples",
+      "tier": "B",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "wiki-badami",
+      "publisher": "Wikipedia",
+      "title": "Badami",
+      "url": "https://en.wikipedia.org/wiki/Badami",
+      "tier": "B",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "wiki-badami-fort",
+      "publisher": "Wikipedia",
+      "title": "Badami Fort",
+      "url": "https://en.wikipedia.org/wiki/Badami_Fort",
+      "tier": "B",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "wiki-badami-shivalaya",
+      "publisher": "Wikipedia",
+      "title": "Badami Shivalaya",
+      "url": "https://en.wikipedia.org/wiki/Badami_Shivalaya",
+      "tier": "B",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "wiki-agastya-lake",
+      "publisher": "Wikipedia",
+      "title": "Agastya Lake",
+      "url": "https://en.wikipedia.org/wiki/Agastya_Lake",
+      "tier": "B",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "wiki-kappe-arabhatta",
+      "publisher": "Wikipedia",
+      "title": "Kappe Arabhatta",
+      "url": "https://en.wikipedia.org/wiki/Kappe_Arabhatta",
+      "tier": "B",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "wiki-ilvala",
+      "publisher": "Wikipedia",
+      "title": "Ilvala",
+      "url": "https://en.wikipedia.org/wiki/Ilvala",
+      "tier": "B",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "wiki-bhutanatha",
+      "publisher": "Wikipedia",
+      "title": "Bhutanatha group of temples",
+      "url": "https://en.wikipedia.org/wiki/Bhutanatha_group_of_temples",
+      "tier": "B",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "wiki-mahakuta",
+      "publisher": "Wikipedia",
+      "title": "Mahakuta group of temples",
+      "url": "https://en.wikipedia.org/wiki/Mahakuta_group_of_temples",
+      "tier": "B",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "wiki-mahakuta-pillar",
+      "publisher": "Wikipedia",
+      "title": "Mahakuta Pillar",
+      "url": "https://en.wikipedia.org/wiki/Mahakuta_Pillar",
+      "tier": "B",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "wiki-banashankari",
+      "publisher": "Wikipedia",
+      "title": "Banashankari Amma Temple",
+      "url": "https://en.wikipedia.org/wiki/Banashankari_Amma_Temple",
+      "tier": "B",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "wiki-sidlaphadi",
+      "publisher": "Wikipedia",
+      "title": "Sidlaphadi",
+      "url": "https://en.wikipedia.org/wiki/Sidlaphadi",
+      "tier": "B",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "wiki-pattadakal",
+      "publisher": "Wikipedia",
+      "title": "Pattadakal",
+      "url": "https://en.wikipedia.org/wiki/Pattadakal",
+      "tier": "B",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "wiki-aihole",
+      "publisher": "Wikipedia",
+      "title": "Aihole",
+      "url": "https://en.wikipedia.org/wiki/Aihole",
+      "tier": "B",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "wiki-durga-aihole",
+      "publisher": "Wikipedia",
+      "title": "Durga temple, Aihole",
+      "url": "https://en.wikipedia.org/wiki/Durga_temple,_Aihole",
+      "tier": "B",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "wiki-ladkhan",
+      "publisher": "Wikipedia",
+      "title": "Lad Khan Temple",
+      "url": "https://en.wikipedia.org/wiki/Lad_Khan_Temple",
+      "tier": "B",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "wiki-meguti",
+      "publisher": "Wikipedia",
+      "title": "Meguti Jain temple",
+      "url": "https://en.wikipedia.org/wiki/Meguti_Jain_temple",
+      "tier": "B",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "wiki-aihole-inscription",
+      "publisher": "Wikipedia",
+      "title": "Aihole inscription",
+      "url": "https://en.wikipedia.org/wiki/Aihole_inscription",
+      "tier": "B",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "wiki-kudalasangama",
+      "publisher": "Wikipedia",
+      "title": "Kudalasangama",
+      "url": "https://en.wikipedia.org/wiki/Kudalasangama",
+      "tier": "B",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "wiki-malaprabha",
+      "publisher": "Wikipedia",
+      "title": "Malaprabha River",
+      "url": "https://en.wikipedia.org/wiki/Malaprabha_River",
+      "tier": "B",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "wiki-almatti",
+      "publisher": "Wikipedia",
+      "title": "Almatti Dam",
+      "url": "https://en.wikipedia.org/wiki/Almatti_Dam",
+      "tier": "B",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "wiki-ilkal-saree",
+      "publisher": "Wikipedia",
+      "title": "Ilkal saree",
+      "url": "https://en.wikipedia.org/wiki/Ilkal_saree",
+      "tier": "B",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "wiki-guledgudda",
+      "publisher": "Wikipedia",
+      "title": "Guledgudda",
+      "url": "https://en.wikipedia.org/wiki/Guledgudda",
+      "tier": "B",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "wiki-mudhol-hound",
+      "publisher": "Wikipedia",
+      "title": "Mudhol Hound",
+      "url": "https://en.wikipedia.org/wiki/Mudhol_Hound",
+      "tier": "B",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "wiki-mudhol",
+      "publisher": "Wikipedia",
+      "title": "Mudhol",
+      "url": "https://en.wikipedia.org/wiki/Mudhol",
+      "tier": "B",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "wiki-shrama-bindu-sagar",
+      "publisher": "Wikipedia",
+      "title": "Shrama Bindu Sagar",
+      "url": "https://en.wikipedia.org/wiki/Shrama_Bindu_Sagar",
+      "tier": "B",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "wiki-chikkapadasalgi",
+      "publisher": "Wikipedia",
+      "title": "Chikkapadasalgi",
+      "url": "https://en.wikipedia.org/wiki/Chikkapadasalgi",
+      "tier": "B",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "sahapedia-chalukya",
+      "publisher": "Sahapedia",
+      "title": "Sacred Architecture of the Calukyas of Bādāmi",
+      "url": "http://www.sahapedia.org/sacred-architecture-of-the-calukyas-of-ba%CC%84da%CC%84mi",
+      "tier": "B",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "impart-ravanaphadi",
+      "publisher": "Impart (art-history encyclopedia)",
+      "title": "Ravanaphadi Cave, Aihole",
+      "url": "https://imp-art.org/articles/ravanaphadi-cave-aihole/",
+      "tier": "B",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "dte-1992",
+      "publisher": "Down To Earth (31 May 1992)",
+      "title": "Dam of defiance",
+      "url": "https://www.downtoearth.org.in/environment/dam-of-defiance-29726",
+      "tier": "B",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "tnm-vatapi",
+      "publisher": "The News Minute",
+      "title": "The legend of Vatapi and magnificent rock cut shrines of Badami Chalukyas",
+      "url": "https://www.thenewsminute.com/article/legend-vatapi-and-magnificent-rock-cut-shrines-badami-chalukyas-56704",
+      "tier": "B",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "outlook-badami",
+      "publisher": "Outlook Traveller",
+      "title": "Karnataka: Ancient Badami",
+      "url": "https://www.outlooktraveller.com/destinations/india/karnataka-ancient-badami",
+      "tier": "B",
+      "retrieved": "2026-09-20"
+    },
+    {
+      "id": "week-mudhol-2023",
+      "publisher": "The Week (3 March 2023)",
+      "title": "When Mudhol hounds found new friends",
+      "url": "https://www.theweek.in/theweek/specials/2023/03/03/mudhol-hounds-find-new-friends.html",
+      "tier": "B",
+      "retrieved": "2026-09-20"
+    }
+  ]
+}
