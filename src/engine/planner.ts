@@ -1,4 +1,4 @@
-import type { Business, DayPlan, EngineCtx, ImpactMetrics, Plan, PlanInput, PlannedStop, Reason, ReasonCode, Site, TraceEvent, Weights } from './types'
+import type { Instant, PlanDiff, Business, DayPlan, EngineCtx, ImpactMetrics, Plan, PlanInput, PlannedStop, Reason, ReasonCode, Site, TraceEvent, Weights } from './types'
 import { TravelOracle } from './matrix'
 import { estimateCrowd } from './crowd'
 import { scoreSite, weightsFor, nearbyPartners } from './score'
@@ -145,6 +145,13 @@ export interface PlanOptions {
 }
 
 export function planJourney(input: PlanInput, ctx: EngineCtx, opts: PlanOptions = {}): Plan {
+  if (opts.startOverride && opts.startOverride.node) {
+    const node = opts.startOverride.node;
+    const site = ctx.sites.find(s => s.id === node);
+    const biz = ctx.businesses.find(b => b.id === node);
+    const loc = site ? site.location : (biz ? biz.location : input.start.location);
+    input = { ...input, start: { siteId: node, location: loc, label: 'override' } };
+  }
   const allowLocal = opts.allowLocal ?? true
   const weights = opts.weights ?? weightsFor(input)
   const exclude = opts.exclude ?? []
@@ -458,4 +465,227 @@ export function computeMetrics(plan: Plan, ctx: EngineCtx): ImpactMetrics {
     travelMin: plan.totals.travelMin,
     kindsCovered: new Set(siteStops.map(s => ctx.sites.find(x => x.id === s.siteId)?.kind)).size
   }
+}
+
+
+export function remainingExposure(plan: Plan, now: Instant, ctx: EngineCtx): number {
+  const futureSites = plan.days.flatMap(d => d.stops).filter(s => s.kind === 'site' && s.start > now);
+  if (futureSites.length === 0) return 0;
+  let sum = 0;
+  for (const stop of futureSites) {
+    const site = ctx.sites.find(s => s.id === stop.siteId)!;
+    sum += estimateCrowd(site, stop.start, ctx.crowd, ctx.overrides, ctx.reports).score;
+  }
+  return Math.round(sum / futureSites.length);
+}
+
+function replanAll(plan: Plan, now: Instant, ctx: EngineCtx): Plan {
+  const oldDay = plan.days[0];
+  const doneStops = oldDay.stops.filter(s => s.start <= now);
+  const doneSiteIds = doneStops.filter(s => s.kind === 'site').map(s => s.siteId!);
+  
+  let spent = 0;
+  let km = 0;
+  let tMin = 0;
+  for (const s of doneStops) {
+    spent += s.costINR;
+    km += s.travelKm;
+    tMin += s.travelMin;
+  }
+  const transportCost = km * plan.input.transportINRPerKm;
+  spent += transportCost;
+  
+  const lastDone = doneStops[doneStops.length - 1];
+  const at = lastDone ? Math.max(now, plan.input.startAt, lastDone.depart) : Math.max(now, plan.input.startAt);
+  const roundedAt = Math.ceil(at / 300000) * 300000;
+  const node = lastDone ? (lastDone.siteId ?? lastDone.businessId ?? null) : null;
+  
+  const newInput = { ...plan.input };
+  newInput.budgetINR = Math.max(0, plan.input.budgetINR - spent);
+  
+  const newPlan = planJourney(newInput, ctx, {
+    startOverride: { node, at: roundedAt },
+    exclude: [...(plan.input.exclude || []), ...doneSiteIds]
+  });
+  
+  newPlan.days[0].stops = [...doneStops, ...newPlan.days[0].stops];
+  
+  let totalCost = 0, totalDist = 0, totalTm = 0;
+  for (const d of newPlan.days) {
+    for (const s of d.stops) {
+      totalCost += s.costINR;
+      totalDist += s.travelKm;
+      totalTm += s.travelMin;
+    }
+  }
+  if (newPlan.days.length === 1) {
+    totalDist += Math.round(newPlan.days[0].returnMin * 0.5); // proxy
+    totalTm += newPlan.days[0].returnMin;
+  }
+  newPlan.totals = {
+    costINR: totalCost,
+    transportINR: totalDist * plan.input.transportINRPerKm,
+    distanceKm: Math.round(totalDist * 10) / 10,
+    travelMin: totalTm
+  };
+  
+  newPlan.metrics = computeMetrics(newPlan, ctx);
+  return newPlan;
+}
+
+function getPermutations<T>(arr: T[]): T[][] {
+  const result: T[][] = [];
+  function generate(n: number, heapArr: T[]) {
+    if (n === 1) {
+      result.push([...heapArr]);
+      return;
+    }
+    for (let i = 0; i < n; i++) {
+      generate(n - 1, heapArr);
+      if (n % 2 === 0) {
+        const temp = heapArr[i]; heapArr[i] = heapArr[n - 1]; heapArr[n - 1] = temp;
+      } else {
+        const temp = heapArr[0]; heapArr[0] = heapArr[n - 1]; heapArr[n - 1] = temp;
+      }
+    }
+  }
+  generate(arr.length, [...arr]);
+  return result;
+}
+
+function retimeToday(plan: Plan, now: Instant, ctx: EngineCtx): Plan | null {
+  const oldDay = plan.days[0];
+  const doneStops = oldDay.stops.filter(s => s.start <= now);
+  const remainingStops = oldDay.stops.filter(s => s.start > now);
+  
+  if (remainingStops.length < 1 || remainingStops.length > 7) return null;
+  
+  const lastDone = doneStops[doneStops.length - 1];
+  const at = lastDone ? Math.max(now, plan.input.startAt, lastDone.depart) : Math.max(now, plan.input.startAt);
+  const roundedAt = Math.ceil(at / 300000) * 300000;
+  
+  let startLoc = plan.input.start.location;
+  let startId = plan.input.start.siteId;
+  if (lastDone) {
+    startLoc = lastDone.location;
+    startId = lastDone.siteId ?? lastDone.businessId;
+  }
+  
+  const originalInput = plan.input;
+  const remainingItems = remainingStops.map(s => {
+    if (s.siteId) return ctx.sites.find(x => x.id === s.siteId)!;
+    return ctx.businesses.find(x => x.id === s.businessId)!;
+  });
+  
+  const originalOrderIds = remainingItems.map(x => x.id).join(',');
+  const perms = getPermutations(remainingItems);
+  
+  let bestSim: any = null;
+  let bestObj = -999999;
+  
+  const weights = weightsFor(originalInput);
+  const oracle = new TravelOracle(ctx.matrix);
+  const is1DayTrip = originalInput.days === 1;
+  const mockInput = { ...originalInput, start: { siteId: startId, location: startLoc, label: 'mock' } };
+  
+  for (const p of perms) {
+    const isOriginal = p.map(x => x.id).join(',') === originalOrderIds;
+    const sim = simulate(p, mockInput, ctx, oracle, roundedAt, weights, is1DayTrip, 0);
+    if (sim.ok) {
+      const meal = sim.stops.find(s => s.kind === 'meal');
+      if (meal) {
+        const mealMin = istParts(meal.start).minuteOfDay;
+        if (mealMin < 12 * 60 + 15 || mealMin > 14 * 60 + 30) continue;
+      }
+      // original wins ties
+      const score = sim.objective + (isOriginal ? 0.001 : 0);
+      if (score > bestObj) {
+        bestObj = score;
+        bestSim = sim;
+      }
+    }
+  }
+  
+  if (!bestSim) return null;
+  
+  const newStops = bestSim.stops.map((stop: any) => {
+    if (stop.siteId) {
+      const site = ctx.sites.find(s => s.id === stop.siteId)!;
+      const reasons: Reason[] = [];
+      if (originalInput.mustSee.includes(site.id)) reasons.push({ code: 'must_see' });
+      if (stop.score && stop.score.interest >= 70) reasons.push({ code: 'interest_match', params: { score: stop.score.interest } });
+      if (site.tier === 'hidden') reasons.push({ code: 'hidden_gem' });
+      if (site.tags.includes('unesco')) reasons.push({ code: 'unesco' });
+      const { real, demo } = nearbyPartners(site, ctx.businesses);
+      if (real + demo > 0) reasons.push({ code: 'local_partners_nearby', params: { count: real + demo } });
+      return { ...stop, reasons };
+    } else if (stop.kind === 'meal') {
+      return { ...stop, reasons: [{ code: 'local_lunch' as ReasonCode }] };
+    } else {
+      return { ...stop, reasons: [{ code: 'local_craft' as ReasonCode }] };
+    }
+  });
+  
+  const mergedStops = [...doneStops, ...newStops];
+  const newPlan = JSON.parse(JSON.stringify(plan));
+  newPlan.days[0].stops = mergedStops;
+  newPlan.days[0].returnMin = bestSim.returnMin;
+  newPlan.days[0].endAt = bestSim.endAt;
+  
+  let spent = 0, km = 0, tMin = 0;
+  for (const s of doneStops) { spent += s.costINR; km += s.travelKm; tMin += s.travelMin; }
+  spent += bestSim.cost; km += bestSim.km; tMin += bestSim.travelMin;
+  
+  newPlan.totals = {
+    costINR: spent,
+    distanceKm: Math.round(km * 10) / 10,
+    transportINR: km * originalInput.transportINRPerKm,
+    travelMin: tMin
+  };
+  
+  newPlan.metrics = computeMetrics(newPlan, ctx);
+  return newPlan;
+}
+
+export function rebalance(plan: Plan, now: Instant, ctx: EngineCtx): { plan: Plan; diff: PlanDiff } {
+  const exposureBefore = remainingExposure(plan, now, ctx);
+  const replanned = replanAll(plan, now, ctx);
+  const retimed = retimeToday(plan, now, ctx);
+  
+  let chosen = replanned;
+  let strategy: 'retime' | 'replan' = 'replan';
+  
+  const replanHasLunch = replanned.days[0].stops.some(s => s.kind === 'meal');
+  const replanExp = remainingExposure(replanned, now, ctx);
+  
+  if (retimed) {
+    const retimeExp = remainingExposure(retimed, now, ctx);
+    
+    
+    if (retimeExp < exposureBefore && (retimeExp <= replanExp + 5 || !replanHasLunch)) {
+      chosen = retimed;
+      strategy = 'retime';
+    }
+  }
+  
+  const exposureAfter = remainingExposure(chosen, now, ctx);
+  
+  const oldIds = plan.days[0].stops.map(s => s.siteId ?? s.businessId!);
+  const newIds = chosen.days[0].stops.map(s => s.siteId ?? s.businessId!);
+  
+  const removed = oldIds.filter(id => !newIds.includes(id));
+  const added = newIds.filter(id => !oldIds.includes(id));
+  const kept = oldIds.filter(id => newIds.includes(id));
+  const moved = kept.filter(id => {
+    const o = plan.days[0].stops.find(s => (s.siteId ?? s.businessId) === id)!;
+    const n = chosen.days[0].stops.find(s => (s.siteId ?? s.businessId) === id)!;
+    return Math.abs(n.start - o.start) >= 30 * 60000;
+  });
+  
+  const diff: PlanDiff = {
+    removed, added, moved, kept, strategy, exposureBefore, exposureAfter
+  };
+  
+  chosen.trace.push({ type: 'rebalance', removed, added, moved });
+  return { plan: chosen, diff };
 }
