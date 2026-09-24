@@ -235,5 +235,13 @@
   "journey.estShort": "ಅಂದಾಜು {from} → {to}",
   "map.hint": "ನಕ್ಷೆ ದೊಡ್ಡದು ಮಾಡಲು ಎರಡು ಬೆರಳಿನಿಂದ ಹಿಗ್ಗಿಸಿ",
   "home.install": "ಸಂಚಾರವನ್ನು ಹೋಮ್ ಸ್ಕ್ರೀನ್‌ಗೆ ಸೇರಿಸಿ",
-  "scan.band": "ಖಚಿತತೆ"
+  "scan.band": "ಖಚಿತತೆ",
+  "kind.all": "ಎಲ್ಲಾ",
+  "kind.heritage": "ಪರಂಪರೆ",
+  "kind.spiritual": "ಆಧ್ಯಾತ್ಮಿಕ",
+  "kind.nature": "ಪ್ರಕೃತಿ",
+  "kind.craft": "ಕರಕುಶಲ",
+  "kind.museum": "ವಸ್ತುಸಂಗ್ರಹಾಲಯಗಳು",
+  "explore.title": "ಬಾಗಲಕೋಟೆ ಅನ್ವೇಷಿಸಿ",
+  "explore.empty": "ಯಾವುದೇ ಸ್ಥಳಗಳು ಹೊಂದಿಕೆಯಾಗುವುದಿಲ್ಲ."
 }

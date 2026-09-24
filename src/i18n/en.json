@@ -235,5 +235,13 @@
   "journey.estShort": "est. {from} → {to}",
   "map.hint": "Pinch to zoom the map",
   "home.install": "Add Sanchara to your home screen",
-  "scan.band": "Confidence"
+  "scan.band": "Confidence",
+  "kind.all": "All",
+  "kind.heritage": "Heritage",
+  "kind.spiritual": "Spiritual",
+  "kind.nature": "Nature",
+  "kind.craft": "Crafts",
+  "kind.museum": "Museums",
+  "explore.title": "Explore Bagalkot",
+  "explore.empty": "No places match this filter."
 }

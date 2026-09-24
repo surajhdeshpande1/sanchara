@@ -235,5 +235,13 @@
   "journey.estShort": "अनुमान {from} → {to}",
   "map.hint": "नक्शा बड़ा करने के लिए दो उँगलियों से फैलाएँ",
   "home.install": "संचार को होम स्क्रीन पर जोड़ें",
-  "scan.band": "भरोसा"
+  "scan.band": "भरोसा",
+  "kind.all": "सभी",
+  "kind.heritage": "विरासत",
+  "kind.spiritual": "आध्यात्मिक",
+  "kind.nature": "प्रकृति",
+  "kind.craft": "शिल्प",
+  "kind.museum": "संग्रहालय",
+  "explore.title": "बागलकोट एक्सप्लोर करें",
+  "explore.empty": "कोई स्थान मेल नहीं खाता।"
 }
